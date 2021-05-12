@@ -1,4 +1,6 @@
-# michaelzhao.xyz
+# My personal website!
+
+This is my personal website, hosted at [https://michaelzhao.xyz](https://michaelzhao.xyz). I am using (and learning!) Vue for this project to build a simple page, as well as (eventually) a blog.
 
 ## Project setup
 ```
@@ -19,6 +21,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
