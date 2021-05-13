@@ -7,12 +7,13 @@ h1 {
 
 h2 {
     margin: 0;
-    margin-top: 2rem;
+    margin-top: 15rem;
     padding: 1rem 0;
 
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 4rem;
+    background-color: white;
 
     /* Apply gradient to text */
     background-clip: text !important;
@@ -21,10 +22,33 @@ h2 {
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
     display: inline-block;
+    background: linear-gradient(135deg, var(--start), var(--start) 25%, var(--end) 75%, var(--end));
 }
 
 #about-me {
-    background: linear-gradient(135deg, #43f3ff, #43f3ff 25%, #844aff 75%, #844aff);
+    margin-top: 10rem;
+    --start: #43f3ff;
+    --end: #844aff;
+}
+
+#recent-posts {
+    --start: #dfa91f;
+    --end: #dc6915;
+}
+
+#my-tech {
+    --start: #1fdf6c;
+    --end: #439fff;
+}
+
+#cool-stuff {
+    --start: #df1f1f;
+    --end: #dad324;
+}
+
+#footer {
+    --start: #b6da24;
+    --end: #1fdfd4;
 }
 
 p {
@@ -51,7 +75,7 @@ a:hover {
     width: 100%;
     min-height: 100%;
     position: relative;
-    padding-bottom: 10rem;
+    padding-bottom: 100rem;
 }
 
 .home-top {
@@ -60,7 +84,7 @@ a:hover {
     position: relative;
 }
 
-.navbar {
+#navbar {
     width: calc(100% - 4rem);
     height: 3rem;
     padding: 2rem;
@@ -138,26 +162,6 @@ a:hover {
     margin: 0 10vw;
 }
 
-.about-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.about-left {
-    margin-top: 2rem;
-    margin-left: 7vw;
-    width: 50%;
-}
-
-.about-img {
-    margin-left: 5vw;
-    height: 50vh;
-}
-
-.email-a {
-    font-size: 1.5rem;
-}
-
 .link-logo-container {
     display: flex;
     flex-direction: row;
@@ -168,4 +172,9 @@ a:hover {
     margin: 0 5rem;
     height: 5rem;
     width: 5rem;
+    transition: 0.2s;
+}
+
+.logo:hover {
+    transform: scale(1.15);
 }
