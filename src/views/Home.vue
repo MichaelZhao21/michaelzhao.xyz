@@ -5,12 +5,13 @@
             <h1 id="name">Michael Zhao</h1>
             <p id="tagline">programmer · designer · artist</p>
         </div>
-        
+        <GithubLogo id="github-logo" class="logo" />
     </div>
 </template>
 
 <script>
-export default { name: 'Home' };
+import GithubLogo from '../assets/logos/github.vue';
+export default { name: 'Home', components: { GithubLogo } };
 </script>
 
 <style scoped>
@@ -81,4 +82,10 @@ p {
     font-size: 2rem;
     color: #9bf3ff;
 }
+
+.logo {
+    display: none;
+    /* Temporary lol */
+}
+
 </style>
