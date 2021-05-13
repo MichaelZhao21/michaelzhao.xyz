@@ -1,0 +1,171 @@
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 6rem;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 1rem 0;
+
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 4rem;
+
+    /* Apply gradient to text */
+    background-clip: text !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+#about-me {
+    background: linear-gradient(135deg, #43f3ff, #43f3ff 25%, #844aff 75%, #844aff);
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #888;
+}
+
+a {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #3ddcff;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #3d8aff;
+}
+
+.home {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 10rem;
+}
+
+.home-top {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    width: calc(100% - 4rem);
+    height: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    display: block;
+    margin: 0 0.5rem;
+    padding: 0.25rem 1rem;
+
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 2rem;
+    color: #ddd;
+}
+
+.nav-link:hover {
+    color: #3ddcff;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.background-fade {
+    height: 25vh;
+    width: 100vw;
+    position: absolute;
+    top: 75vh;
+    left: 0;
+
+    background: linear-gradient(180deg, #21212100, #212121);
+}
+
+.name-box {
+    width: 65vw;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20vh 0 0 -32.5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00000088;
+}
+
+#name {
+    margin: 0.5rem 0;
+}
+
+#tagline {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 2rem;
+    color: #9bf3ff;
+}
+
+.bottom-content {
+    margin: 0 10vw;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-left {
+    margin-top: 2rem;
+    margin-left: 7vw;
+    width: 50%;
+}
+
+.about-img {
+    margin-left: 5vw;
+    height: 50vh;
+}
+
+.email-a {
+    font-size: 1.5rem;
+}
+
+.link-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0 5rem;
+    height: 5rem;
+    width: 5rem;
+}
