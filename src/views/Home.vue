@@ -5,6 +5,7 @@
             <h1 id="name">Michael Zhao</h1>
             <p id="tagline">programmer · designer · artist</p>
         </div>
+        <div class="background-fade"></div>
         <GithubLogo id="github-logo" class="logo" />
     </div>
 </template>
@@ -54,6 +55,16 @@ p {
     object-position: center top;
 }
 
+.background-fade {
+    height: 25vh;
+    width: 100vw;
+    position: absolute;
+    top: 75vh;
+    left: 0;
+
+    background: linear-gradient(180deg, #21212100, #212121);
+}
+
 .name-box {
     width: 65vw;
     height: 40vh;
@@ -87,5 +98,4 @@ p {
     display: none;
     /* Temporary lol */
 }
-
 </style>
