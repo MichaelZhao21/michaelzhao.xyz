@@ -8,7 +8,7 @@ h1 {
 h2 {
     width: fit-content;
     margin: 0;
-    margin-top: 15rem;
+    margin-top: 10rem;
     padding: 1rem 0.5rem;
 
     font-family: 'Ubuntu';
@@ -29,8 +29,15 @@ h2 {
     color: #212121;
 }
 
+h3 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
 #about-me {
-    margin-top: 10rem;
     --start: #43f3ff;
     --end: #844aff;
 }

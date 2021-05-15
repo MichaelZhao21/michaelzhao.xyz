@@ -27,7 +27,7 @@
     </svg>
 </template>
 
-<style>
+<style scoped>
 .a7a23ea5-d695-49e1-9091-4ee76d210139 {
     fill: #069;
 }
