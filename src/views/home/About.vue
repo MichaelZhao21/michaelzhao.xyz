@@ -17,7 +17,7 @@
                 <a href="https://github.com/MichaelZhao21" class="logo-link">
                     <GithubLogo id="github-logo" class="logo" />
                 </a>
-                <a href="https://github.com/MichaelZhao21" class="logo-link">
+                <a href="https://www.linkedin.com/in/michael-zhao-2021/" class="logo-link">
                     <LinkedInLogo id="linkedin-logo" class="logo" />
                 </a>
             </div>
