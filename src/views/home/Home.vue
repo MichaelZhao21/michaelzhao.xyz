@@ -6,7 +6,8 @@
                 <a class="nav-link" href="#recent-posts">recent posts</a>
                 <a class="nav-link" href="#my-technology">my tech</a>
                 <a class="nav-link" href="#cool-stuff">cool stuff</a>
-                <a class="nav-link" href="/blog">blog</a>
+                <a class="nav-link" href="#footer">footer</a>
+                <!-- <a class="nav-link" href="/blog">blog</a> -->
             </div>
             <img class="background" src="@/assets/background.jpg" />
             <div class="name-box">
