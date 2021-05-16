@@ -1,5 +1,6 @@
 <template>
     <h2 id="footer">Footer</h2>
+    <p class="center">Click and drag to draw :))</p>
     <div class="color-slider">
         <div
             class="slider-tick"
@@ -8,6 +9,7 @@
             v-bind:style="`background-color:hsl(${i},100%,50%)`"
             v-on:click="chooseColor"
             v-bind:id="`col-${i}`"
+            v-bind:title="i"
         ></div>
     </div>
     <div class="tile-controls">
