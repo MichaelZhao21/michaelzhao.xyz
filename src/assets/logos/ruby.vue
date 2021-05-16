@@ -19,13 +19,6 @@
         inkscape:version="0.48.0 r9654"
         sodipodi:docname="Logo-Ruby.svg"
     >
-        <metadata id="metadata3320">
-            <rdf:RDF
-                ><cc:Work rdf:about=""
-                    ><dc:format>image/svg+xml</dc:format
-                    ><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/></cc:Work
-            ></rdf:RDF>
-        </metadata>
         <defs id="defs3489">
             <linearGradient
                 id="XMLID_17_-9"
@@ -262,27 +255,6 @@
                 inkscape:collect="always"
             />
         </defs>
-        <sodipodi:namedview
-            pagecolor="#ffffff"
-            bordercolor="#666666"
-            borderopacity="1"
-            objecttolerance="10"
-            gridtolerance="10"
-            guidetolerance="10"
-            inkscape:pageopacity="0"
-            inkscape:pageshadow="2"
-            inkscape:window-width="1036"
-            inkscape:window-height="1124"
-            id="namedview3487"
-            showgrid="false"
-            inkscape:zoom="1.3412289"
-            inkscape:cx="99.065005"
-            inkscape:cy="98.790004"
-            inkscape:window-x="882"
-            inkscape:window-y="24"
-            inkscape:window-maximized="0"
-            inkscape:current-layer="Layer_1"
-        />
         <linearGradient
             id="XMLID_17_"
             gradientUnits="userSpaceOnUse"
