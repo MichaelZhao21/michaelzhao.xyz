@@ -4,7 +4,7 @@
     <div class="color-slider">
         <div
             class="slider-tick"
-            v-for="(n, i) in 362"
+            v-for="(n, i) in 360"
             v-bind:key="i"
             v-bind:style="`background-color:hsl(${i},100%,50%)`"
             v-on:click="chooseColor"
