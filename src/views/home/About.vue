@@ -22,14 +22,14 @@
                 </a>
             </div>
         </div>
-        <img class="about-img" v-bind:src="aboutImg" alt="My picture!" />
+        <img class="about-img" v-bind:src="aboutImg" alt="Michael Zhao's picture" />
     </div>
 </template>
 
 <script>
 import GithubLogo from '@/assets/logos/github.vue';
 import LinkedInLogo from '@/assets/logos/linkedin.vue';
-import aboutImg from '@/assets/face.png';
+import aboutImg from '@/assets/face.webp';
 
 export default {
     name: 'About',

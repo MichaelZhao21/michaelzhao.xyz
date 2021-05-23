@@ -6,10 +6,9 @@
                 <a class="nav-link" href="#recent-posts">recent posts</a>
                 <a class="nav-link" href="#my-technology">my tech</a>
                 <a class="nav-link" href="#cool-stuff">cool stuff</a>
-                <a class="nav-link" href="#footer">footer</a>
                 <!-- <a class="nav-link" href="/blog">blog</a> -->
             </div>
-            <img class="background" src="@/assets/background.jpg" />
+            <img class="background" src="@/assets/background.webp" />
             <div class="name-box">
                 <h1 id="name">Michael Zhao</h1>
                 <p id="tagline">programmer · designer · artist</p>
@@ -21,7 +20,6 @@
             <recent-posts></recent-posts><br>
             <my-tech></my-tech><br>
             <cool-stuff></cool-stuff><br>
-            <my-footer></my-footer><br>
         </div>
     </div>
 </template>
@@ -29,15 +27,14 @@
 <script>
 import About from './About.vue';
 import CoolStuff from './CoolStuff.vue';
-import MyFooter from './MyFooter.vue';
 import MyTech from './MyTech.vue';
 import RecentPosts from './RecentPosts.vue';
 
-const headers = ['navbar', 'about-me', 'recent-posts', 'my-tech', 'cool-stuff', 'footer'];
+const headers = ['navbar', 'about-me', 'recent-posts', 'my-tech', 'cool-stuff'];
 
 export default {
     name: 'Home',
-    components: { About, RecentPosts, CoolStuff, MyTech, MyFooter },
+    components: { About, RecentPosts, CoolStuff, MyTech },
     mounted,
 };
 
