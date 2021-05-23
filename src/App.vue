@@ -17,4 +17,6 @@ body,
 body {
     background-color: #212121
 }
+
+/* Desktop >1200px, Landscape Tablets >800px, Phones >600px */
 </style>

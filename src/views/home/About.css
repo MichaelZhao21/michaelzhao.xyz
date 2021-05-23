@@ -17,3 +17,51 @@
 .email-a {
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 1400px) {
+    .about-img {
+        margin-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .about-img {
+        margin-top: 5rem;
+    }
+    .logo {
+        margin: 0 3rem !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about-img {
+        height: fit-content;
+        width: 40vw;
+    }
+    .about-left {
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container {
+        flex-direction: column;
+    }
+    .about-left {
+        width: 100%;
+        order: 1;
+        margin: 0;
+    }
+    .about-img {
+        width: 60%;
+        margin: auto;
+    }
+    .email-a {
+        font-size: 1.1rem;
+    }
+    .logo {
+        width: 3rem !important;
+        height: 3rem !important;
+        margin: 0 2rem !important;
+    }
+}

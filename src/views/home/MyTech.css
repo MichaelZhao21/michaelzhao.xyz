@@ -19,3 +19,25 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 800px) {
+    .icon-grid {
+        margin: 0 5vw;
+    }
+    .logo-tech {
+        height: 4rem !important;
+        margin: 0.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .icon-grid {
+        margin: 0;
+    }
+    .logo-tech {
+        height: 2rem !important;
+        margin: 0.25rem !important;
+        padding: 0.5rem !important;
+        border-radius: 0.25rem;
+    }
+}

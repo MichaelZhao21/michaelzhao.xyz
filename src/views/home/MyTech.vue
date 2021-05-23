@@ -18,10 +18,10 @@
             <mongodb-logo class="logo logo-tech white"></mongodb-logo>
         </a>
         <a href="https://en.wikipedia.org/wiki/HTML5" class="logo-link">
-            <html-logo class="logo logo-tech"></html-logo>
+            <html-logo class="logo logo-tech white"></html-logo>
         </a>
         <a href="https://en.wikipedia.org/wiki/CSS" class="logo-link">
-            <css-logo class="logo logo-tech"></css-logo>
+            <css-logo class="logo logo-tech white"></css-logo>
         </a>
         <a href="https://github.com/" class="logo-link">
             <github-logo class="logo logo-tech"></github-logo>

@@ -21,9 +21,8 @@ h2 {
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
-    display: inline-block;
     background: linear-gradient(135deg, var(--start), var(--start) 25%, var(--end) 75%, var(--end));
-    
+
     /* Fallbacks */
     background-color: white;
     color: #212121;
@@ -86,7 +85,7 @@ a:hover {
     width: 100%;
     min-height: 100%;
     position: relative;
-    padding-bottom: 100rem;
+    padding-bottom: 5rem;
 }
 
 .home-top {
@@ -159,6 +158,7 @@ a:hover {
 
 #name {
     margin: 0.5rem 0;
+    text-align: center;
 }
 
 #tagline {
@@ -188,4 +188,79 @@ a:hover {
 
 .logo:hover {
     transform: scale(1.15);
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+    .nav-link {
+        font-size: 1.75rem;
+    }
+    .bottom-content {
+        margin: 0 5vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h2 {
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    #navbar {
+        display: none;
+    }
+    .name-box {
+        width: 90vw;
+        height: 15rem;
+        margin: -7.5rem 0 0 -45vw;
+    }
+    .bottom-content {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+    .nav-link {
+        font-size: 1.75rem;
+    }
+    .bottom-content {
+        margin: 0 5vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    p {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        margin: 5rem auto 0 auto !important;
+        font-size: 3rem;
+        text-align: center;
+    }
+    p,
+    a {
+        font-size: 1.1rem;
+    }
+    .name-box {
+        width: 100vw;
+        height: 25vh;
+        margin-left: -50vw;
+        margin-top: -12.5vh;
+    }
+    #tagline {
+        font-size: 1.25rem;
+    }
 }
