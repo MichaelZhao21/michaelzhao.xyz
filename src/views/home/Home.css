@@ -15,12 +15,6 @@ h2 {
     font-weight: 700;
     font-size: 4rem;
 
-    /* Apply gradient to text */
-    background-clip: text !important;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
     background: linear-gradient(135deg, var(--start), var(--start) 25%, var(--end) 75%, var(--end));
 
     /* Fallbacks */
@@ -262,5 +256,16 @@ a:hover {
     }
     #tagline {
         font-size: 1.25rem;
+    }
+}
+
+@supports (background-clip: text) {
+    h2 {
+        /* Apply gradient to text */
+        background-clip: text !important;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
     }
 }
