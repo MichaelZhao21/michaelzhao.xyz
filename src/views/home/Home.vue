@@ -4,7 +4,7 @@
             <div id="navbar">
                 <a class="nav-link" href="#about-me">about me</a>
                 <a class="nav-link" href="#recent-posts">recent posts</a>
-                <a class="nav-link" href="#my-technology">my tech</a>
+                <a class="nav-link" href="#my-tech">my tech</a>
                 <a class="nav-link" href="#cool-stuff">cool stuff</a>
                 <a class="nav-link" href="/blog">blog</a>
             </div>
@@ -12,7 +12,7 @@
             <div id="mobile-navbar" v-bind:class="dropdown ? 'dropdown' : ''">
                 <a class="mobile-nav-link" href="#about-me">about me</a>
                 <a class="mobile-nav-link" href="#recent-posts">recent posts</a>
-                <a class="mobile-nav-link" href="#my-technology">my tech</a>
+                <a class="mobile-nav-link" href="#my-tech">my tech</a>
                 <a class="mobile-nav-link" href="#cool-stuff">cool stuff</a>
                 <a class="mobile-nav-link" href="/blog">blog</a>
             </div>
