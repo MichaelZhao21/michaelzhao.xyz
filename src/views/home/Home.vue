@@ -6,7 +6,15 @@
                 <a class="nav-link" href="#recent-posts">recent posts</a>
                 <a class="nav-link" href="#my-technology">my tech</a>
                 <a class="nav-link" href="#cool-stuff">cool stuff</a>
-                <!-- <a class="nav-link" href="/blog">blog</a> -->
+                <a class="nav-link" href="/blog">blog</a>
+            </div>
+            <hamburger id="hamburger" v-on:click="dropdown = !dropdown"></hamburger>
+            <div id="mobile-navbar" v-bind:class="dropdown ? 'dropdown' : ''">
+                <a class="mobile-nav-link" href="#about-me">about me</a>
+                <a class="mobile-nav-link" href="#recent-posts">recent posts</a>
+                <a class="mobile-nav-link" href="#my-technology">my tech</a>
+                <a class="mobile-nav-link" href="#cool-stuff">cool stuff</a>
+                <a class="mobile-nav-link" href="/blog">blog</a>
             </div>
             <img class="background" src="@/assets/background.webp" />
             <div class="name-box">
@@ -17,9 +25,9 @@
         </div>
         <div class="bottom-content">
             <about></about>
-            <recent-posts></recent-posts><br>
-            <my-tech></my-tech><br>
-            <cool-stuff></cool-stuff><br>
+            <recent-posts></recent-posts><br />
+            <my-tech></my-tech><br />
+            <cool-stuff></cool-stuff><br />
         </div>
     </div>
 </template>
@@ -29,13 +37,19 @@ import About from './About.vue';
 import CoolStuff from './CoolStuff.vue';
 import MyTech from './MyTech.vue';
 import RecentPosts from './RecentPosts.vue';
+import Hamburger from '../../assets/hamburger.vue';
 
 const headers = ['navbar', 'about-me', 'recent-posts', 'my-tech', 'cool-stuff'];
 
 export default {
     name: 'Home',
-    components: { About, RecentPosts, CoolStuff, MyTech },
+    components: { About, RecentPosts, CoolStuff, MyTech, Hamburger },
     mounted,
+    data: function() {
+        return {
+            dropdown: false,
+        };
+    },
 };
 
 async function mounted() {

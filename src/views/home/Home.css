@@ -112,6 +112,41 @@ a:hover {
     color: #3ddcff;
 }
 
+#mobile-navbar {
+    position: absolute;
+    top: 5rem;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    z-index: 10;
+
+    background: linear-gradient(#212121aa, #212121ff);
+    transition: 1s;
+}
+
+#mobile-navbar.dropdown {
+    height: 15rem;
+    padding: 1rem 0;
+}
+
+.mobile-nav-link {
+    height: 3rem;
+    display: block;
+
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    color: #ddd;
+}
+
+#hamburger {
+    display: none;
+    padding: 2rem;
+    cursor: pointer;
+}
+
 .background {
     position: absolute;
     top: 0;
@@ -196,27 +231,6 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 800px) {
-    h2 {
-        margin-left: 2rem;
-        font-size: 3rem;
-    }
-    h3 {
-        font-size: 2rem;
-    }
-    #navbar {
-        display: none;
-    }
-    .name-box {
-        width: 90vw;
-        height: 15rem;
-        margin: -7.5rem 0 0 -45vw;
-    }
-    .bottom-content {
-        margin: 0;
-    }
-}
-
 @media only screen and (max-width: 1200px) {
     h1 {
         font-size: 5rem;
@@ -230,8 +244,29 @@ a:hover {
 }
 
 @media only screen and (max-width: 800px) {
+    h2 {
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
     p {
         font-size: 1.35rem;
+    }
+    #navbar {
+        display: none;
+    }
+    #hamburger {
+        display: block;
+    }
+    .name-box {
+        width: 90vw;
+        height: 15rem;
+        margin: -7.5rem 0 0 -45vw;
+    }
+    .bottom-content {
+        margin: 0;
     }
 }
 
@@ -248,14 +283,36 @@ a:hover {
     a {
         font-size: 1.1rem;
     }
+    .home-top {
+        height: 50vh;
+    }
+    .background {
+        height: 50vh;
+    }
+    .background-fade {
+        top: 25vh;
+    }
     .name-box {
-        width: 100vw;
+        width: 90vw;
         height: 25vh;
-        margin-left: -50vw;
+        margin-left: -45vw;
         margin-top: -12.5vh;
     }
     #tagline {
         font-size: 1.25rem;
+    }
+    #hamburger {
+        padding: 1.5rem;
+    }
+    #mobile-navbar {
+        top: 4rem;
+    }
+    #mobile-navbar.dropdown {
+        height: 10rem;
+    }
+    .mobile-nav-link {
+        height: 2rem;
+        font-size: 1.5rem;
     }
 }
 
