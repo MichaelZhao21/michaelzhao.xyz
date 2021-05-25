@@ -46,6 +46,7 @@
 @media only screen and (max-width: 600px) {
     .about-container {
         flex-direction: column;
+        padding: 0.5rem;
     }
     .about-left {
         width: 100%;
