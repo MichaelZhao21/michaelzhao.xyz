@@ -27,22 +27,17 @@ h1 {
     font-family: var(--title-font);
     font-size: 5rem;
     line-height: 1.1;
-    background: linear-gradient(135deg, var(--primary), var(--primary) 15%, var(--secondary) 85%, var(--secondary));
-    
-    /* Fallbacks */
-    background-color: white;
-    color: #212121;
-}
 
-@supports (background-clip: text) {
-    h1 {
-        /* Apply gradient to text */
-        background-clip: text !important;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-        -webkit-text-fill-color: transparent;
-    }
+    /* Fallback */
+    color: #fff;
+
+    /* Gradient Formatting */
+    background: linear-gradient(135deg, var(--primary), var(--primary) 15%, var(--secondary) 85%, var(--secondary));
+    background-clip: text !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
