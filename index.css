@@ -1,0 +1,133 @@
+:root {
+    --primary: #fff;
+    --secondary: #81e3fa;
+    --title-font: 'Caveat Brush', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --text-font: 'Rubik', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #212121;
+    color: #ddd;
+}
+
+#app {
+    width: calc(100% - 40rem);
+    height: 100%;
+    padding: 0 20rem;
+}
+
+h1 {
+    width: max-content;
+    padding-top: 2rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    font-family: var(--title-font);
+    font-size: 5rem;
+    line-height: 1.1;
+    background: linear-gradient(135deg, var(--primary), var(--primary) 15%, var(--secondary) 85%, var(--secondary));
+    
+    /* Fallbacks */
+    background-color: white;
+    color: #212121;
+}
+
+@supports (background-clip: text) {
+    h1 {
+        /* Apply gradient to text */
+        background-clip: text !important;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+h2 {
+    padding-top: 1rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-family: var(--title-font);
+    font-size: 3rem;
+
+}
+
+p {
+    margin-top: 0;
+    font-family: var(--text-font);
+    font-size: 1.25rem;
+}
+
+a {
+    font-family: var(--text-font);
+    font-size: 1.1rem;
+
+    text-decoration: none;
+    color: #afd3db;
+    transition: 0.2s;
+}
+
+a:hover {
+    filter: brightness(1.25);
+    transform: scale(1.1);
+}
+
+li {
+    font-family: var(--text-font);
+    font-size: 1.1rem;
+}
+
+.spacer {
+    height: 1rem;
+    width: 100%;
+}
+
+.social {
+    width: max-content;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    display: block;
+    font-size: 1.25rem;
+    color: var(--link-color);
+}
+
+#email-link {
+    --link-color: #ffd7b2;
+}
+
+#github-link {
+    --link-color: #ffb2d7;
+}
+
+#linkedin-link {
+    --link-color: #b4b2ff;
+}
+
+#list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1400px) {
+    #app {
+        width: calc(100% - 10rem);
+        padding: 0 5rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #app {
+        width: calc(100% - 2rem);
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #list-grid {
+        display: block;
+    }
+}
