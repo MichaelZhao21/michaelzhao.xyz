@@ -1,6 +1,6 @@
 :root {
-    --primary: #fff;
-    --secondary: #81e3fa;
+    --primary: #36d9ff;
+    --secondary: #8438ff;
     --title-font: 'Caveat Brush', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --text-font: 'Rubik', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -14,9 +14,9 @@ body, html {
 }
 
 #app {
-    width: calc(100% - 40rem);
+    width: calc(100% - 60rem);
     min-height: 100%;
-    padding: 0 20rem;
+    padding: 0 30rem;
     padding-bottom: 2rem;
 }
 
@@ -89,6 +89,12 @@ li {
     color: var(--link-color);
 }
 
+#link-list {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
 #email-link {
     --link-color: #ffd7b2;
 }
@@ -106,9 +112,14 @@ li {
     grid-template-columns: repeat(2, 1fr);
 }
 
+#what-im-learning {
+    margin-right: 2rem;
+    grid-row: span 2;
+}
+
 /* Media queries */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
     #app {
         width: calc(100% - 10rem);
         padding: 0 5rem;
@@ -119,6 +130,10 @@ li {
     #app {
         width: calc(100% - 2rem);
         padding: 0 1rem;
+    }
+    #link-list {
+        flex-direction: column;
+        align-items: center;
     }
 }
 

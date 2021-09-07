@@ -33,9 +33,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Rubik&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Rubik:wght@400;700&display=swap"
             rel="stylesheet"
         />
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"
+        ></script>
+        <script src="index.js"></script>
     </head>
 
     <body>
@@ -46,59 +53,147 @@
             <h1>michael zhao</h1>
             <p class="about">
                 Hi! I’m a first-year computer science major studying at the University of Texas at
-                Dallas. I enjoy coding for fun in my free time, mostly working on frontend UI/UX design
-                projects, as well as full-stack applications and services.
+                Dallas. I enjoy coding for fun in my free time, mostly working on frontend UI/UX
+                design projects, as well as full-stack applications and services.
             </p>
             <p class="about">
-                I love drawing and creating art. I’ve done quite a bit of traditional sketching
-                and some painting, but I’m trying to get into digital art this year. I also cook
+                I love drawing and creating art. I’ve done quite a bit of traditional sketching and
+                some painting, but I’m trying to get into digital art this year. I also cook
                 whenever I get the opportunity to; making food with friends is so much fun! Feel
                 free to shoot me an email or message, and I’ll be happy to talk to you :DD
             </p>
             <div class="spacer"></div>
-            <a class="social" target="_blank" id="email-link" href="mailto:me@michaelzhao.xyz">email [me@michaelzhao.xyz]</a>
-            <a class="social" target="_blank" id="github-link" href="https://github.com/MichaelZhao21">github [MichaelZhao21]</a>
-            <a class="social" target="_blank" id="linkedin-link" href="https://www.linkedin.com/in/michaelzhao21/">linkedin [Michael Zhao]</a>
+            <div id="link-list">
+                <a class="social" target="_blank" id="email-link" href="mailto:me@michaelzhao.xyz">
+                    email [me@michaelzhao.xyz]
+                </a>
+                <a
+                    class="social"
+                    target="_blank"
+                    id="github-link"
+                    href="https://github.com/MichaelZhao21"
+                >
+                    github [MichaelZhao21]
+                </a>
+                <a
+                    class="social"
+                    target="_blank"
+                    id="linkedin-link"
+                    href="https://www.linkedin.com/in/michaelzhao21/"
+                >
+                    linkedin [Michael Zhao]
+                </a>
+            </div>
             <div class="spacer"></div>
             <div id="list-grid">
-                <div class="grid-item">
-                    <h2>tech ive used</h2>
+                <div class="grid-item" id="what-im-learning">
+                    <h2>what im learning</h2>
                     <ul>
-                        <li><a href="https://reactjs.org/" target="_blank">React</a></li>
-                        <li><a href="https://aws.amazon.com/" target="_blank">AWS</a></li>
-                        <li><a href="https://nginx.org/en/" target="_blank">NGINX</a></li>
-                        <li><a href="https://expressjs.com/" target="_blank">Express</a></li>
-                        <li><a href="https://www.mongodb.com/" target="_blank">mongoDB</a></li>
-                        <li>HTML5/CSS3</li>
-                    </ul>
-                </div>
-                <div class="grid-item">
-                    <h2>tech im learning</h2>
-                    <ul>
-                        <li><a href="https://www.gnu.org/software/bash/" target="_blank">Bash</a></li>
-                        <li><a href="https://www.typescriptlang.org/" target="_blank">Typescript</a></li>
-                        <li><a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a></li>
+                        <li>
+                            <a href="https://www.typescriptlang.org/" target="_blank">Typescript</a>
+                            integration in my backend
+                        </li>
+                        <li>
+                            <a
+                                href="https://sites.fas.harvard.edu/~cscie287/spring2019/slides/MIPS%20Assembly%20Language.pdf"
+                                target="_blank"
+                            >
+                                MIPS Assembly
+                            </a>
+                            for my CS 2340 class
+                        </li>
                         <li><a href="https://vuejs.org/" target="_blank">Vue.js</a></li>
-                        <li>...and always learning more about tech used!</li>
+                        <li>
+                            <a href="https://vuejs.org/" target="_blank">Tensorflow</a>
+                            and general machine learning
+                        </li>
+                        <li>
+                            Digital art using
+                            <a href="https://krita.org" target="_blank">Krita</a>
+                        </li>
+                        <li>
+                            Creating a custom Windows desktop with
+                            <a href="https://www.rainmeter.net/" target="_blank">Rainmeter</a>
+                        </li>
+                        <li>
+                            How to write comics with
+                            <a href="https://en.wikipedia.org/wiki/Hector_Cant%C3%BA" target="_blank">Dr. Hector Cantú</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="grid-item">
                     <h2>projects</h2>
                     <ul>
                         <li><a href="https://tams.club" target="_blank">tams.club</a></li>
-                        <li><a href="https://addons.mozilla.org/en-US/firefox/addon/atab/" target="_blank">aTab</a></li>
-                        <li><a href="https://github.com/MichaelZhao21/CampbookProcessing" target="_blank">Campbook Processing</a></li>
-                        <li><a href="https://github.com/MichaelZhao21/NHS-Get-Elgibility" target="_blank">NHS-Get-Eligibility</a></li>
-                        <li><a href="https://addons.mozilla.org/en-US/firefox/addon/night-messenger-theme/" target="_blank">night-messenger</a></li>
-                        <li><a href="https://github.com/MichaelZhao21/genshin-wish-logs" target="_blank">genshin-wish-logs</a></li>
-                        <li><a href="https://github.com/MichaelZhao21/genshin-auto-checkin" target="_blank">genshin-auto-checkin</a></li>
+                        <li>
+                            <a
+                                href="https://addons.mozilla.org/en-US/firefox/addon/atab/"
+                                target="_blank"
+                            >
+                                aTab
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/MichaelZhao21/CampbookProcessing"
+                                target="_blank"
+                            >
+                                Campbook Processing
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/MichaelZhao21/NHS-Get-Elgibility"
+                                target="_blank"
+                            >
+                                NHS-Get-Eligibility
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://addons.mozilla.org/en-US/firefox/addon/night-messenger-theme/"
+                                target="_blank"
+                            >
+                                night-messenger
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/MichaelZhao21/genshin-wish-logs"
+                                target="_blank"
+                            >
+                                genshin-wish-logs
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/MichaelZhao21/genshin-auto-checkin"
+                                target="_blank"
+                            >
+                                genshin-auto-checkin
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="grid-item">
                     <h2>interesting stuff :)</h2>
                     <ul>
-                        <li><a href="https://conceptually.org/concepts/occams-razor" target="_blank">occam's razor</a></li>
-                        <li><a href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment" target="_blank">principle of least astonishment</a></li>
+                        <li>
+                            <a
+                                href="https://conceptually.org/concepts/occams-razor"
+                                target="_blank"
+                            >
+                                occam's razor
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment"
+                                target="_blank"
+                            >
+                                principle of least astonishment
+                            </a>
+                        </li>
                         <li><a href="https://cuberule.com/" target="_blank">the cube rule</a></li>
                         <li>ur cute</li>
                     </ul>
