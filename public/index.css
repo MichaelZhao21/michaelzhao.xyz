@@ -14,9 +14,9 @@ body, html {
 }
 
 #app {
-    width: calc(100% - 60rem);
+    width: calc(100% - 60vw);
     min-height: 100%;
-    padding: 0 30rem;
+    padding: 0 30vw;
     padding-bottom: 2rem;
 }
 
