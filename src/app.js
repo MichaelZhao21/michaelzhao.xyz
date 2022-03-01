@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 let hsl = 191;
 let hsl2 = 263;
 
