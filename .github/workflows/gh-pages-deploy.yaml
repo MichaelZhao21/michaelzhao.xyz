@@ -2,8 +2,7 @@ name: Build and deploy to gh-pages
 
 on:
     push:
-        branches:
-            - master
+        branches: ['master']
 
 jobs:
     gh-pages-build:
