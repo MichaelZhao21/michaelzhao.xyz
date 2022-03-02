@@ -3,6 +3,7 @@ import $ from 'jquery';
 let hsl = 191;
 let hsl2 = 263;
 
+// on body load
 $(() => {
     setInterval(() => {
         hsl++;
