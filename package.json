@@ -1,23 +1,11 @@
 {
-    "name": "michaelzhao.xyz",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "git@github.com:MichaelZhao21/michaelzhao.xyz.git",
-    "author": "Michael Zhao <michaelzhao314@gmail.com>",
-    "license": "MIT",
-    "private": true,
-    "scripts": {
-        "start": "node build-dev.js",
-        "build": "node build.js"
-    },
-    "dependencies": {
-        "jquery": "^3.6.0",
-        "mustache": "^4.2.0"
-    },
-    "devDependencies": {
-        "chokidar": "^3.5.3",
-        "esbuild": "^0.14.23",
-        "fs-extra": "^10.0.1",
-        "node-static": "^0.7.11"
-    }
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  }
 }

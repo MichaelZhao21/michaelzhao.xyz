@@ -1,7 +1,29 @@
-# My personal website!
+# Nuxt 3 Minimal Starter
 
-This is my personal website, hosted at [https://michaelzhao.xyz](https://michaelzhao.xyz). I have added a few libraries, namely [jquery](https://jquery.com/) and [mustache](https://mustache.github.io/), the first for easy DOM modification and the second for templating and components.
+We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
-## Build
+## Setup
 
-There is a Github Action workflow configured to run whenever a push happens to master that will update the `gh-pages` branch with a new static build. To manually build the site, simply run `yarn build`, and it will create a production build in `/docs`.
+Make sure to install the dependencies
+
+```bash
+yarn install
+```
+
+## Development
+
+Start the development server on http://localhost:3000
+
+```bash
+yarn dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+yarn build
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
