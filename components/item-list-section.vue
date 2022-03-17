@@ -3,7 +3,7 @@ import { PropType } from 'vue';
 
 /**
  * Section with a title and ItemList
- * Icons are stored in /assets/<icon-name>.webp
+ * Icons are stored at https://cdn.michaelzhao.xyz/images/<icon-name>.webp
  */
 export default { name: 'ItemListSection' };
 </script>
@@ -28,7 +28,7 @@ const props = defineProps({
     },
 });
 
-const iconSrc = `../assets/${props.icon}.webp`;
+const iconSrc = `https://cdn.michaelzhao.xyz/images/${props.icon}.webp`;
 </script>
 
 <template>
