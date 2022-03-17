@@ -93,49 +93,6 @@ li {
     color: var(--link-color);
 }
 
-/* ################## About section ################## */
-
-#about-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 2rem 0;
-}
-
-#about-left {
-    flex-basis: 40%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#about-right {
-    flex-basis: 60%;
-}
-
-.about-side {
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-
-#link-list {
-    display: flex;
-    justify-content: space-around;
-    font-weight: 700;
-}
-
-#email-link {
-    --link-color: #ffd7b2;
-}
-
-#github-link {
-    --link-color: #ffb2d7;
-}
-
-#linkedin-link {
-    --link-color: #b4b2ff;
-}
-
 #list-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

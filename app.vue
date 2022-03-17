@@ -1,9 +1,9 @@
 <template>
     <div id="app">
-        <h1>~ Michael Zhao ~</h1>
+        <RainbowTitle text="~ Michael Zhao ~" />
         <div id="about-container">
             <div class="about-side" id="about-left">
-                <img src="https://cdn.michaelzhao.xyz/images/kazuha-chibi.webp" alt="Cute image!">
+                <img src="https://cdn.michaelzhao.xyz/images/kazuha-chibi.webp" alt="Cute image!" />
             </div>
             <div class="about-side" id="about-right">
                 <p class="about">
@@ -21,27 +21,25 @@
             </div>
         </div>
         <div class="spacer"></div>
-        <div id="link-list">
-            <a class="social" target="_blank" id="email-link" href="mailto:me@michaelzhao.xyz">
-                email [me@michaelzhao.xyz]
-            </a>
-            <a
-                class="social"
-                target="_blank"
-                id="github-link"
+        <div id="link-grid">
+            <ColorButtonLink text="Email" href="mailto:michaelzhao314@gmail.com" color="#FB8BC1" />
+            <ColorButtonLink
+                text="Github"
                 href="https://github.com/MichaelZhao21"
-            >
-                github [MichaelZhao21]
-            </a>
-            <a
-                class="social"
-                target="_blank"
-                id="linkedin-link"
+                color="#FFBE5E"
+            />
+            <ColorButtonLink
+                text="LinkedIn"
                 href="https://www.linkedin.com/in/michaelzhao21/"
-            >
-                linkedin [Michael Zhao]
-            </a>
+                color="#92FAA2"
+            />
+            <ColorButtonLink
+                text="Resume"
+                href="https://cdn.michaelzhao.xyz/resume.pdf"
+                color="#92BDFF"
+            />
         </div>
+
         <div class="spacer"></div>
         <div id="list-grid">
             <div class="grid-item" id="what-im-learning">
@@ -158,3 +156,39 @@
         </div>
     </div>
 </template>
+
+<style>
+/* ################## About section ################## */
+
+#about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#about-left {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about-right {
+    flex-basis: 60%;
+}
+
+.about-side {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+/* ################## Link grid ################## */
+
+#link-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 0 4rem;
+}
+</style>

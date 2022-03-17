@@ -30,8 +30,8 @@ export default defineNuxtConfig({
         ],
         link: [
             { rel: 'stylesheet', href: 'main.css' },
-            { rel: 'favicon', href: 'favicon.ico' },
-            { rel: 'manifest', href: 'manifest.json' },
+            { rel: 'favicon', type: 'image/x-icon', href: 'favicon.ico' },
+            { rel: 'manifest', href: '/manifest.json' },
             { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
             { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
             {
