@@ -1,29 +1,9 @@
-# Nuxt 3 Minimal Starter
+# My personal website!
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+This is my personal website!! I'm currently using (and learning) [Nuxt.js](https://nuxtjs.org/), which is built off of the [Vue.js](https://vuejs.org/) framework. I chose to use Vue because I needed a simple templating framework and Nuxt because it manages SSR and SEO much better than I could myself.
 
-## Setup
+## Scripts
 
-Make sure to install the dependencies
-
-```bash
-yarn install
-```
-
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+* Development Run: `yarn dev`
+* Build: `yarn build`
+* Production Run: `yarn start` (need to build first)
