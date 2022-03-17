@@ -46,6 +46,14 @@ a {
 
 a:hover {
     border: var(--hover-border);
+    transform: scale(1.05);
 }
 
+@media only screen and (max-width: 768px) {
+    a {
+        font-size: 2rem;
+        padding: 0.5rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
 </style>

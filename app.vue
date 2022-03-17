@@ -1,3 +1,28 @@
+<script setup lang="ts">
+const itemList = [
+    [
+        '[Racket](https://racket-lang.org/) (Scheme) to build a backend server',
+        'Ricing my (third) [Arch](https://wiki.archlinux.org/title/Arch_Linux) distro with [Openbox](http://openbox.org/wiki/Main_Page)',
+        'Shell scripting and C',
+    ],
+    [
+        '[TAMS Club Calendar](https://tams.club) - Unofficial student organization calendar for [TAMS](https://tams.unt.edu/)',
+        '[aTab](https://github.com/MichaelZhao21/atab) - Firefox extension that replaces new tab window with a nicer interface',
+        '[Discord Pull Request Notifications](https://github.com/MichaelZhao21/pr-discord-notif) - Get notifications for pull requests through a Discord bot!',
+        '[Stickerinator](https://github.com/MichaelZhao21/stickerinator) - Crop out white backgrounds easily with this Python script',
+        '[Brainfuck Interpreter](https://github.com/MichaelZhao21/bf-interpreter) - Simple [brainfuck](https://esolangs.org/wiki/Brainfuck) interpreter written in C',
+    ],
+    [
+        "[Occam's Razor](https://conceptually.org/concepts/occams-razor)",
+        '[Principle of Least Astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)',
+        '[the cube rule](https://cuberule.com/)',
+    ],
+    [
+        '[Clock](https://clock.michaelzhao.xyz) - simple clock display I made that will ding every hour',
+    ],
+];
+</script>
+
 <template>
     <div id="app">
         <RainbowTitle text="~ Michael Zhao ~" />
@@ -20,7 +45,6 @@
                 </p>
             </div>
         </div>
-        <div class="spacer"></div>
         <div id="link-grid">
             <ColorButtonLink text="Email" href="mailto:michaelzhao314@gmail.com" color="#FB8BC1" />
             <ColorButtonLink
@@ -41,123 +65,43 @@
         </div>
 
         <div class="spacer"></div>
-        <div id="list-grid">
-            <div class="grid-item" id="what-im-learning">
-                <h2>what im learning</h2>
-                <ul>
-                    <li>
-                        <a href="https://www.typescriptlang.org/" target="_blank">Typescript</a>
-                        integration in my backend
-                    </li>
-                    <li>
-                        <a
-                            href="https://sites.fas.harvard.edu/~cscie287/spring2019/slides/MIPS%20Assembly%20Language.pdf"
-                            target="_blank"
-                        >
-                            MIPS Assembly
-                        </a>
-                        for my CS 2340 class
-                    </li>
-                    <li><a href="https://vuejs.org/" target="_blank">Vue.js</a></li>
-                    <li>
-                        <a href="https://vuejs.org/" target="_blank">Tensorflow</a>
-                        and general machine learning
-                    </li>
-                    <li>
-                        Digital art using
-                        <a href="https://krita.org" target="_blank">Krita</a>
-                    </li>
-                    <li>
-                        Creating a custom Windows desktop with
-                        <a href="https://www.rainmeter.net/" target="_blank">Rainmeter</a>
-                    </li>
-                    <li>
-                        How to write comics with
-                        <a href="https://en.wikipedia.org/wiki/Hector_Cant%C3%BA" target="_blank"
-                            >Dr. Hector Cantú</a
-                        >
-                    </li>
-                </ul>
-            </div>
-            <div class="grid-item">
-                <h2>projects</h2>
-                <ul>
-                    <li><a href="https://tams.club" target="_blank">tams.club</a></li>
-                    <li>
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/atab/"
-                            target="_blank"
-                        >
-                            aTab
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/MichaelZhao21/CampbookProcessing"
-                            target="_blank"
-                        >
-                            Campbook Processing
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/MichaelZhao21/NHS-Get-Elgibility"
-                            target="_blank"
-                        >
-                            NHS-Get-Eligibility
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://addons.mozilla.org/en-US/firefox/addon/night-messenger-theme/"
-                            target="_blank"
-                        >
-                            night-messenger
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/MichaelZhao21/genshin-wish-logs"
-                            target="_blank"
-                        >
-                            genshin-wish-logs
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/MichaelZhao21/genshin-auto-checkin"
-                            target="_blank"
-                        >
-                            genshin-auto-checkin
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="grid-item" id="interesting-stuff">
-                <h2>interesting stuff :)</h2>
-                <ul>
-                    <li>
-                        <a href="https://conceptually.org/concepts/occams-razor" target="_blank">
-                            occam's razor
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment"
-                            target="_blank"
-                        >
-                            principle of least astonishment
-                        </a>
-                    </li>
-                    <li><a href="https://cuberule.com/" target="_blank">the cube rule</a></li>
-                    <li>ur cute</li>
-                </ul>
-            </div>
+        <div id="list-list">
+            <ItemListSection
+                title="what i'm studying"
+                :list="itemList[0]"
+                icon="light-bulb"
+                alt="light bulb icon"
+            />
+            <ItemListSection
+                title="projects"
+                :list="itemList[1]"
+                icon="closed-book"
+                alt="closed book icon"
+            />
+            <ItemListSection
+                title="interesting links"
+                :list="itemList[2]"
+                icon="sun-behind-cloud"
+                alt="sun behind cloud icon"
+            />
+            <ItemListSection
+                title="fun stuff"
+                :list="itemList[3]"
+                icon="snowflake"
+                alt="snowflake icon"
+            />
         </div>
     </div>
 </template>
 
 <style>
+#app {
+    min-height: 100%;
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem 1rem 2rem;
+}
+
 /* ################## About section ################## */
 
 #about-container {
@@ -190,5 +134,25 @@
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin: 0 4rem;
+    padding-top: 1rem;
+}
+
+/* ################## Phone ################## */
+
+@media only screen and (max-width: 768px) {
+    #about-container {
+        padding: 0;
+        flex-direction: column;
+    }
+    
+    #about-left {
+        padding-bottom: 0.5rem;
+    }
+
+    #link-grid {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        padding-bottom: 1rem;
+    }
 }
 </style>
