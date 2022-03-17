@@ -1,17 +1,25 @@
 <template>
     <div id="app">
         <h1>~ Michael Zhao ~</h1>
-        <p class="about">
-            Hi! I'm an undergraduate computer science student studying at the University of Texas at
-            Dallas. I enjoy coding for fun whenever I get the chance, mostly working on frontend UI/UX design
-            projects, as well as full-stack applications and services.
-        </p>
-        <p class="about">
-            In my free time, I love drawing and creating art. I've done quite a bit of traditional
-            sketching and some painting, but I'm trying to get into digital art this year. I also
-            cook whenever I get the opportunity to! Feel free to shoot me an email or message, and
-            I'll be happy to talk to you :DD
-        </p>
+        <div id="about-container">
+            <div class="about-side" id="about-left">
+                <img src="https://cdn.michaelzhao.xyz/images/kazuha-chibi.webp" alt="Cute image!">
+            </div>
+            <div class="about-side" id="about-right">
+                <p class="about">
+                    Hi! I'm an undergraduate computer science student studying at the University of
+                    Texas at Dallas. I enjoy coding for fun whenever I get the chance, mostly
+                    working on frontend UI/UX design projects, as well as full-stack applications
+                    and services.
+                </p>
+                <p class="about">
+                    In my free time, I love drawing and creating art. I've done quite a bit of
+                    traditional sketching and some painting, but I'm trying to get into digital art
+                    this year. I also cook whenever I get the opportunity to! Feel free to shoot me
+                    an email or message, and I'll be happy to talk to you :DD
+                </p>
+            </div>
+        </div>
         <div class="spacer"></div>
         <div id="link-list">
             <a class="social" target="_blank" id="email-link" href="mailto:me@michaelzhao.xyz">
