@@ -29,7 +29,6 @@ export default defineNuxtConfig({
             { name: 'twitter:image', content: 'https://cdn.michaelzhao.xyz/social-cover.webp' },
         ],
         link: [
-            { rel: 'stylesheet', href: 'main.css' },
             { rel: 'favicon', type: 'image/x-icon', href: 'favicon.ico' },
             { rel: 'manifest', href: '/manifest.json' },
             { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
