@@ -20,6 +20,16 @@ const itemList = [
     [
         '[Clock](https://clock.michaelzhao.xyz) - simple clock display I made that will ding every hour',
     ],
+    [
+        '[cute songs to help you relax and stay calm | Ambition](https://youtu.be/saesY1Ld9nU)',
+        '[a playlist to boost your confidence . | SunJuice.](https://youtu.be/l-VGMgdn11Y)',
+        '[attending a tvt dream concert - a genshin playlist | riko](https://youtu.be/8ZS8BaA7m2w)',
+        '[A villain but make them the ✨main character ✨ // playlist | sunsetdreams](https://youtu.be/qfAtd29L9JI)',
+        '[Fuck monogamy, better a kiss of four - a boyfriends playlist | Asian](https://youtu.be/YJi2coVodHs)',
+        '[kicking homophobics with Yu Yang - a playlist | Asian](https://youtu.be/cwDdvEe6wY8)',
+        '[goofing around inazuma with arataki itto ━ a playlist🐮 | luama彡☆](https://youtu.be/5EezNrCLvb8)',
+        '[Songs that get you motivated | Shake Music](https://youtu.be/NSyc21gPpaU)',
+    ],
 ];
 </script>
 
@@ -85,10 +95,16 @@ const itemList = [
                 alt="sun behind cloud icon"
             />
             <ItemListSection
-                title="fun stuff"
+                title="cool stuff"
                 :list="itemList[3]"
                 icon="snowflake"
                 alt="snowflake icon"
+            />
+            <ItemListSection
+                title="fun playlists"
+                :list="itemList[4]"
+                icon="headphone"
+                alt="headphone icon"
             />
         </div>
     </div>
@@ -144,7 +160,7 @@ const itemList = [
         padding: 0;
         flex-direction: column;
     }
-    
+
     #about-left {
         padding-bottom: 0.5rem;
     }
