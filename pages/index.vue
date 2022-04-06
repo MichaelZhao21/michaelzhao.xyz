@@ -4,6 +4,7 @@ const itemList = [
         '[Racket](https://racket-lang.org/) (Scheme) to build a backend server',
         'Ricing my (third) [Arch](https://wiki.archlinux.org/title/Arch_Linux) distro with [Openbox](http://openbox.org/wiki/Main_Page)',
         'Shell scripting and C',
+        'Digital Art because I finally have an Apple Pencil and Procreate!!!',
     ],
     [
         '[TAMS Club Calendar](https://tams.club) - Unofficial student organization calendar for [TAMS](https://tams.unt.edu/)',
@@ -19,6 +20,7 @@ const itemList = [
     ],
     [
         '[Clock](https://clock.michaelzhao.xyz) - simple clock display I made that will ding every hour',
+        '[DSA Calculators](/dsa-calculators) - solves data structures/algorithm problems in the browser with steps',
     ],
     [
         '[cute songs to help you relax and stay calm | Ambition](https://youtu.be/saesY1Ld9nU)',
@@ -110,7 +112,27 @@ const itemList = [
     </div>
 </template>
 
-<style>
+<style scoped>
+h1 {
+    font-size: 5rem;
+    width: max-content;
+
+    /* Fallback */
+    color: #fff;
+
+    /* Gradient Formatting */
+    background: linear-gradient(135deg, var(--primary), var(--primary) 15%, var(--secondary) 85%, var(--secondary));
+    background-clip: text !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
 #app {
     min-height: 100%;
     max-width: 50rem;

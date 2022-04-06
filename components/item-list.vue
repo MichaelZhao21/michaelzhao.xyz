@@ -18,7 +18,7 @@ const props = defineProps({
 });
 
 const itemList = props.list.map((item) =>
-    item.replace(/\[(.*?)\]\((http.*?)\)/g, '<a href="$2">$1</a>')
+    item.replace(/\[(.*?)\]\(((?:http|\/).*?)\)/g, '<a href="$2">$1</a>')
 );
 </script>
 
