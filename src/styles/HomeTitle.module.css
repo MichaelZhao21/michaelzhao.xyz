@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    position: relative;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.nameText {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 9rem;
+}
+
+.image {
+    height: 24rem;
+    width: 5rem;
+    position: relative;
+}
+
+.spacer {
+    height: 100%;
+    width: 6rem;
+}
+
+.pictureContainer {
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.face {
+    height: 80%;
+    width: 80%;
+    position: relative;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.bracket {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
