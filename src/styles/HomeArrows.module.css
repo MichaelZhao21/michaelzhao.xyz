@@ -41,3 +41,13 @@
         transform: translateY(-0.5rem);
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .container {
+        margin-top: 4rem;
+    }
+
+    .arrow {
+        height: 6rem;
+    }
+}
