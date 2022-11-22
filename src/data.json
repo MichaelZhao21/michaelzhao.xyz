@@ -76,5 +76,23 @@
             "title": "Gavel Hackathon Judging System",
             "body": "Exploring ways to rewrite Gavel, a hackathon judging system first created and used at HackMIT in 2015."
         }
+    ],
+    "links": [
+        {
+            "title": "Occam's Razor",
+            "href": "https://conceptually.org/concepts/occams-razor"
+        },
+        {
+            "title": "Library of Babel",
+            "href": "https://libraryofbabel.info/"
+        },
+        {
+            "title": "The Cube Rule",
+            "href": "https://cuberule.com/"
+        },
+        {
+            "title": "Principle of Least Astonishment",
+            "href": "https://en.wikipedia.org/wiki/Principle_of_least_astonishment"
+        }
     ]
 }

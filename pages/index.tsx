@@ -6,6 +6,7 @@ import HomeTagline from '../src/components/HomeTagline';
 import HomeButtons from '../src/components/HomeButtons';
 import HomeProjects from '../src/components/HomeProjects';
 import HomeStudying from '../src/components/HomeStudying';
+import HomeLinks from '../src/components/HomeLinks';
 
 const Home: NextPage = () => {
     return (
@@ -18,6 +19,8 @@ const Home: NextPage = () => {
             <HomeProjects />
             <h1 className='heading padded'>What I'm Studying</h1>
             <HomeStudying />
+            <h1 className='heading padded'>Links Links Links :DD</h1>
+            <HomeLinks />
         </div>
     );
 };
