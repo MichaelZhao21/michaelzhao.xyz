@@ -1,9 +1,14 @@
+:root {
+    --text-font: Lexend, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    --title-font: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+}
+
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family: Lexend, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: var(--text-font);
     background-color: #303334;
 }
 

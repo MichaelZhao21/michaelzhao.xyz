@@ -1,0 +1,22 @@
+.container {
+    margin-top: 10rem;
+    padding: 0 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteContainer {
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    align-self: flex-start;
+    margin-left: -4rem;
+}
+
+.quote {
+    align-self: center;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
