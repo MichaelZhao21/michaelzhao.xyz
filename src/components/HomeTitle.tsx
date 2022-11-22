@@ -11,6 +11,7 @@ const HomeTitle = () => {
                         src="/lbracket.svg"
                         layout="fill"
                         objectFit="contain"
+                        alt="left bracket"
                     />
                 </div>
                 <div className={styles.name}>
@@ -22,13 +23,19 @@ const HomeTitle = () => {
                         src="/rbracket.svg"
                         layout="fill"
                         objectFit="contain"
+                        alt="right bracket"
                     />
                 </div>
             </div>
             <div className={styles.spacer} />
             <div className={styles.pictureContainer}>
                 <div className={styles.face}>
-                    <Image src="/face.png" layout="fill" objectFit="contain" />
+                    <Image
+                        src="/face.png"
+                        layout="fill"
+                        objectFit="contain"
+                        alt="picture of my face"
+                    />
                 </div>
                 <Circle
                     top="12%"

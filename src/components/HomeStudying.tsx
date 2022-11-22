@@ -6,11 +6,12 @@ const HomeStudying = () => {
     return (
         <div className={styles.container + ' padded'}>
             {data.studying.map((s) => (
-                <div className={styles.item}>
+                <div key={s.name} className={styles.item}>
                     <div className={styles.title}>
                         <div className={styles.icon}>
                             <Image
                                 src={`/${s.name}.svg`}
+                                alt={s.name}
                                 layout="fill"
                                 objectFit="contain"
                             />

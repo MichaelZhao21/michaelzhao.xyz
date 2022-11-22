@@ -10,8 +10,10 @@ const HomeLinks = () => {
         <div className={styles.container + ' padded'}>
             {data.links.map((l) => (
                 <a
+                    key={l.title}
                     href={l.href}
                     target="_blank"
+                    rel="noreferrer"
                     className={styles.item}
                     style={{ backgroundColor: `hsl(${randColor()} 68% 78%)` }}
                 >

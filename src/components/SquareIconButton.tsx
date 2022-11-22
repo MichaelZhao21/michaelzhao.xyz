@@ -14,9 +14,15 @@ const SquareIconButton = (props: {
                 style={{ backgroundColor: props.color }}
                 href={props.href}
                 target="_blank"
+                rel="noreferrer"
             >
                 <div className={styles.iconContainer}>
-                    <Image src={props.icon} layout="fill" objectFit="contain" />
+                    <Image
+                        src={props.icon}
+                        layout="fill"
+                        objectFit="contain"
+                        alt={props.icon}
+                    />
                 </div>
             </a>
             <div className={styles.text}>{props.text}</div>

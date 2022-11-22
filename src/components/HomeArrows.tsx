@@ -13,7 +13,7 @@ const HomeArrows = () => {
     return (
         <div className={styles.container}>
             <div className={styles.arrow} onClick={scrollDown}>
-                <Image src="/arrows.svg" layout="fill" objectFit="contain" />
+                <Image src="/arrows.svg" layout="fill" objectFit="contain" alt="down arrows" />
             </div>
         </div>
     );

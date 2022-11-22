@@ -20,6 +20,7 @@ const HomeProjects = () => {
                 setProjectId((projectId + 1) % data.projects.length);
             }, 5000)
         );
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [projectId]);
 
     useEffect(() => {
@@ -36,11 +37,13 @@ const HomeProjects = () => {
                     <a
                         href={data.projects[projectId].href}
                         target="_blank"
+                        rel="noreferrer"
                         className={styles.displayBox}
                         style={{ borderColor: data.projects[projectId].color }}
                     >
                         <Image
                             src={`/${data.projects[projectId].name}.jpg`}
+                            alt={data.projects[projectId].name}
                             layout="fill"
                             objectFit="cover"
                             style={{ borderRadius: '0.5rem' }}
