@@ -54,5 +54,27 @@
             "href": "https://github.com/MichaelZhao21/bf-interpreter",
             "description": "A crude but effective Brainfuck interpreter written in C"
         }
+    ],
+    "studying": [
+        {
+            "name": "fuzzing",
+            "title": "Fuzzing",
+            "body": "Exploring the automated testing of code through fuzzing research!"
+        },
+        {
+            "name": "ml",
+            "title": "Machine Learning",
+            "body": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems"
+        },
+        {
+            "name": "rust",
+            "title": "Rust",
+            "body": "Learning and building a project with the modern Rust language"
+        },
+        {
+            "name": "gavel",
+            "title": "Gavel Hackathon Judging System",
+            "body": "Exploring ways to rewrite Gavel, a hackathon judging system first created and used at HackMIT in 2015."
+        }
     ]
 }

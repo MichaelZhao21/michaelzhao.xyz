@@ -1,0 +1,36 @@
+.container {
+    margin: 0 25%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #3F4445;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title h2 {
+    margin: 1rem 0 0.5rem;
+    color: white;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.item p {
+    margin: 0;
+    margin-left: 3rem;
+    color: #AAC1C8;
+}
