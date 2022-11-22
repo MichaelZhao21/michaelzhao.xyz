@@ -12,7 +12,7 @@ const HomeTagline = () => {
     }, []);
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container + ' padded'}>
             <div className={styles.quoteContainer}>
                 <Image src="/quote.svg" layout="fill" objectFit="contain" />
             </div>

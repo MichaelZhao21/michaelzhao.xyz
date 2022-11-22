@@ -1,6 +1,5 @@
 .container {
     margin-top: 10rem;
-    padding: 0 30%;
     display: flex;
     flex-direction: column;
 }
@@ -19,4 +18,26 @@
     color: white;
     margin: 0;
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .quoteContainer {
+        margin-left: -1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container {
+        margin-top: 5rem;
+    }
+
+    .quoteContainer {
+        margin-left: -0.5rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .quote {
+        font-size: 1.5rem;
+    }
 }

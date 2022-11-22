@@ -7,7 +7,7 @@ const HomeLinks = () => {
     };
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container + ' padded'}>
             {data.links.map((l) => (
                 <a
                     href={l.href}

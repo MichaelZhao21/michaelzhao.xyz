@@ -1,5 +1,4 @@
 .container {
-    padding: 0 25%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -16,4 +15,10 @@
 .item:hover {
     filter: brightness(1.2);
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 720px) {
+    .item {
+        font-size: 1.25rem;
+    }
 }

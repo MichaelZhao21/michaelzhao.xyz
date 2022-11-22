@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             <HomeProjects />
             <h1 className='heading padded'>What I'm Studying</h1>
             <HomeStudying />
-            <h1 className='heading padded'>Links Links Links :DD</h1>
+            <h1 className='heading padded'>Links :DD</h1>
             <HomeLinks />
         </div>
     );

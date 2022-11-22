@@ -5,11 +5,11 @@ import Image from 'next/image';
 import Circle from './Circle';
 
 const HomeProjects = () => {
+    const [matches, setMatches] = useState(false);
     const [projectId, setProjectId] = useState(0);
     const [timer, setTimer] = useState<NodeJS.Timeout>();
 
     const switchProject = (id: number) => {
-        clearTimeout(timer);
         setProjectId(id);
     };
 
@@ -21,6 +21,13 @@ const HomeProjects = () => {
             }, 5000)
         );
     }, [projectId]);
+
+    useEffect(() => {
+        setMatches(window.matchMedia('(max-width: 900px)').matches);
+        window
+            .matchMedia('(max-width: 900px)')
+            .addEventListener('change', (e) => setMatches(e.matches));
+    }, []);
 
     return (
         <div className={styles.container}>
@@ -53,7 +60,7 @@ const HomeProjects = () => {
                             onClick={switchProject.bind(this, i)}
                         >
                             <Circle
-                                size="2.5rem"
+                                size={matches ? "1rem" : "2.5rem"}
                                 fill={p.color as string}
                                 noAnimation
                                 staticPosition

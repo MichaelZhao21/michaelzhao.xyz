@@ -35,7 +35,7 @@
         },
         {
             "name": "discord-pr-notifs",
-            "display": "Discord Pull Request Notifs",
+            "display": "Discord PR Notifs",
             "color": "#006BCE",
             "href": "https://github.com/MichaelZhao21/pr-discord-notif",
             "description": "Listens to new pull requests from a Github repository and sends a message to a Discord text channel when a pull request is created. This is done through Github Webhooks, the Github API, and the Discordjs Bot Library."

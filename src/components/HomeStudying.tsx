@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HomeStudying = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container + ' padded'}>
             {data.studying.map((s) => (
                 <div className={styles.item}>
                     <div className={styles.title}>
