@@ -1,0 +1,35 @@
+.container {
+    margin: 0 2rem;
+}
+
+.button {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    border: 5px solid white;
+    transform: scale(1.1);
+}
+
+.iconContainer {
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+}
+
+.text {
+    width: 9rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
