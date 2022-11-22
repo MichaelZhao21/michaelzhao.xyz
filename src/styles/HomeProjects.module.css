@@ -1,0 +1,62 @@
+.container {
+    padding-left: 25%;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.displayBox {
+    display: block;
+    position: relative;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+    z-index: 10;
+    background-color: #303334;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20rem;
+    margin-left: 2rem;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.projectContainer:hover>.projectName {
+    color: white;
+}
+
+.projectName {
+    margin-left: 1rem;
+    color: #717E82;
+    font-size: 1.25rem;
+    transition: 0.5s;
+}
+
+.activeProject {
+    transform: translateX(-3.5rem);
+}
+
+.activeProject>.projectName {
+    color: white;
+}
+
+.description {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 38rem;
+    color: #AAC1C8;
+}

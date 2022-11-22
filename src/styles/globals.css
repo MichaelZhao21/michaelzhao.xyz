@@ -20,3 +20,34 @@ a {
 * {
     box-sizing: border-box;
 }
+
+.heading {
+    /* Colors */
+    --primary: #FDC355;
+    --secondary: #FF835B;
+
+    /* Fallback */
+    color: #fff;
+
+    /* Gradient Formatting */
+    background: linear-gradient(135deg, var(--primary), var(--primary) 15%, var(--secondary) 85%, var(--secondary));
+    background-clip: text !important;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    /* Width for gradient */
+    width: max-content;
+
+    /* Other props */
+    font-family: var(--title-font);
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.padded {
+    margin-left: 25%;
+    margin-right: 25%;
+}

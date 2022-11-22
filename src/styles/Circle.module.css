@@ -1,9 +1,7 @@
 .shape {
-    position: absolute;
     animation-name: fade-in;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    opacity: 0;
 }
 
 @keyframes fade-in {

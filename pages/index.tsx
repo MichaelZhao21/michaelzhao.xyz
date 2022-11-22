@@ -4,6 +4,7 @@ import HomeTitle from '../src/components/HomeTitle';
 import HomeArrows from '../src/components/HomeArrows';
 import HomeTagline from '../src/components/HomeTagline';
 import HomeButtons from '../src/components/HomeButtons';
+import HomeProjects from '../src/components/HomeProjects';
 
 const Home: NextPage = () => {
     return (
@@ -12,6 +13,8 @@ const Home: NextPage = () => {
             <HomeArrows />
             <HomeTagline />
             <HomeButtons />
+            <h1 className='heading padded'>Projects</h1>
+            <HomeProjects />
         </div>
     );
 };

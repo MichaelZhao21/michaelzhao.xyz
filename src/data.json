@@ -17,5 +17,42 @@
         "Somewhere, something incredible is waiting to be known. (Carl Sagan)",
         "Do one thing every day that scares you. (Eleanor Roosevelt)",
         "We reveal most about ourselves when we speak about others. (Kamand Kojouri)"
+    ],
+    "projects": [
+        {
+            "name": "tams-club-calendar",
+            "display": "TAMS Club Calendar",
+            "color": "#00CE00",
+            "href": "https://tams.club",
+            "description": "The TAMS Club Calendar is a fully contained event tracker, club/volunteering database, and general resource center. This is the unofficial club event calendar for the Texas Academy of Mathematics and Science (TAMS) student organizations!"
+        },
+        {
+            "name": "atab",
+            "display": "aTab",
+            "color": "#00CE9D",
+            "href": "https://github.com/MichaelZhao21/atab",
+            "description": "aTab is an extension that will replace your new tab into a more productive and useful interface! The interface features an aesthetic dark material theme, a news feed (from the News API), a list of customizable links on a sidebar, a place to jot down quick notes that can sync across devices, and a nice date/time display."
+        },
+        {
+            "name": "discord-pr-notifs",
+            "display": "Discord Pull Request Notifs",
+            "color": "#006BCE",
+            "href": "https://github.com/MichaelZhao21/pr-discord-notif",
+            "description": "Listens to new pull requests from a Github repository and sends a message to a Discord text channel when a pull request is created. This is done through Github Webhooks, the Github API, and the Discordjs Bot Library."
+        },
+        {
+            "name": "stickerinator",
+            "display": "Stickerinator",
+            "color": "#D06FFE",
+            "href": "https://github.com/MichaelZhao21/stickerinator",
+            "description": "Remove backgrounds and add a border to your images to turn them into stickers!"
+        },
+        {
+            "name": "bf-interpreter",
+            "display": "BrainF*ck Interpreter",
+            "color": "#CEA100",
+            "href": "https://github.com/MichaelZhao21/bf-interpreter",
+            "description": "A crude but effective Brainfuck interpreter written in C"
+        }
     ]
 }
