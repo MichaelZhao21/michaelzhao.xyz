@@ -65,11 +65,11 @@
 }
 
 .mobileProjectTag .projectSubtitle {
-    margin-top: 0.25rem;
+    margin: 0.25rem 0 !important;
 }
 
 .mobileProjectTag h2 {
-    margin: 1rem 0 0.25rem;
+    margin: 0.5rem 0 0.25rem;
 }
 
 .mobileProjectTag {
