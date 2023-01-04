@@ -6,7 +6,7 @@ const HomeProjects = () => {
         <div>
             <div className={styles.mobileProjects + ' ' + styles.padded}>
                 {data.projects.map((p) => (
-                    <div className={styles.mobileProject}>
+                    <div key={p.name} className={styles.mobileProject}>
                         <img
                             src={`/${p.name}.jpg`}
                             alt={p.name}
