@@ -24,6 +24,7 @@
             "display": "TAMS Club Calendar",
             "color": "#00CE00",
             "href": "https://tams.club",
+            "position": "Creator, Developer",
             "description": "The TAMS Club Calendar is a fully contained event tracker, club/volunteering database, and general resource center. This is the unofficial club event calendar for the Texas Academy of Mathematics and Science (TAMS) student organizations!"
         },
         {
@@ -31,13 +32,15 @@
             "display": "aTab",
             "color": "#00CE9D",
             "href": "https://github.com/MichaelZhao21/atab",
+            "position": "Creator, Developer",
             "description": "aTab is an extension that will replace your new tab into a more productive and useful interface! The interface features an aesthetic dark material theme, a news feed (from the News API), a list of customizable links on a sidebar, a place to jot down quick notes that can sync across devices, and a nice date/time display."
         },
         {
             "name": "discord-pr-notifs",
             "display": "Discord PR Notifs",
-            "color": "#006BCE",
+            "color": "#2795FB",
             "href": "https://github.com/MichaelZhao21/pr-discord-notif",
+            "position": "Creator, Developer",
             "description": "Listens to new pull requests from a Github repository and sends a message to a Discord text channel when a pull request is created. This is done through Github Webhooks, the Github API, and the Discordjs Bot Library."
         },
         {
@@ -45,6 +48,7 @@
             "display": "Stickerinator",
             "color": "#D06FFE",
             "href": "https://github.com/MichaelZhao21/stickerinator",
+            "position": "Creator, Developer",
             "description": "Remove backgrounds and add a border to your images to turn them into stickers!"
         },
         {
@@ -52,6 +56,7 @@
             "display": "BrainF*ck Interpreter",
             "color": "#CEA100",
             "href": "https://github.com/MichaelZhao21/bf-interpreter",
+            "position": "Creator, Developer",
             "description": "A crude but effective Brainfuck interpreter written in C"
         }
     ],
