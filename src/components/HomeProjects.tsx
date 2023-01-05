@@ -7,7 +7,7 @@ const HomeProjects = () => {
             <div className={styles.mobileProjects + ' ' + styles.padded}>
                 {data.projects.map((p) => (
                     <div key={p.name} className={styles.mobileProject}>
-                        <a href={p.href} target="_blank">
+                        <a href={p.href} target="_blank" rel="noreferrer">
                             <img
                                 src={`/${p.name}.jpg`}
                                 alt={p.name}
@@ -19,6 +19,7 @@ const HomeProjects = () => {
                                 style={{ color: p.color }}
                                 href={p.href}
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 {p.display}
                             </a>
@@ -43,6 +44,7 @@ const HomeProjects = () => {
                         }}
                         href={p.href}
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <div
                             className={styles.projectTag}
