@@ -7,13 +7,21 @@ const HomeProjects = () => {
             <div className={styles.mobileProjects + ' ' + styles.padded}>
                 {data.projects.map((p) => (
                     <div key={p.name} className={styles.mobileProject}>
-                        <img
-                            src={`/${p.name}.jpg`}
-                            alt={p.name}
-                            style={{ borderColor: p.color }}
-                        />
+                        <a href={p.href} target="_blank">
+                            <img
+                                src={`/${p.name}.jpg`}
+                                alt={p.name}
+                                style={{ borderColor: p.color }}
+                            />
+                        </a>
                         <div className={styles.mobileProjectTag}>
-                            <h2 style={{ color: p.color }}>{p.display}</h2>
+                            <a
+                                style={{ color: p.color }}
+                                href={p.href}
+                                target="_blank"
+                            >
+                                {p.display}
+                            </a>
                             <p className={styles.projectSubtitle}>
                                 {p.position}
                             </p>
@@ -26,13 +34,15 @@ const HomeProjects = () => {
             </div>
             <div className={styles.container}>
                 {data.projects.map((p) => (
-                    <div
+                    <a
                         key={p.name}
                         className={styles.project}
                         style={{
                             backgroundImage: `url(/${p.name}.jpg)`,
                             borderColor: p.color,
                         }}
+                        href={p.href}
+                        target="_blank"
                     >
                         <div
                             className={styles.projectTag}
@@ -46,7 +56,7 @@ const HomeProjects = () => {
                                 {p.description}
                             </p>
                         </div>
-                    </div>
+                    </a>
                 ))}
             </div>
         </div>
