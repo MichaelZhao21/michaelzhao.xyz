@@ -32,14 +32,14 @@
 
 .projectTag {
     border: solid 3px black;
-    border-left: none !important;
-    margin-left: -3px;
-    background-color: var(--background);
+    background-color: var(--background-trans);
+    backdrop-filter: blur(2px);
     width: 40%;
     padding: 0 1rem 0.5rem 1rem;
     color: white;
     position: absolute;
-    bottom: 20%;
+    left: 2rem;
+    bottom: 2rem;
     font-size: 1.25rem;
 }
 
