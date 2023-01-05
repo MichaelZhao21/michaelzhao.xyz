@@ -15,10 +15,10 @@ const Home: NextPage = () => {
             <HomeArrows />
             <HomeTagline />
             <HomeButtons />
-            <h1 className="heading padded">Projects</h1>
-            <HomeProjects />
             <h1 className="heading padded">What I&apos;m Studying</h1>
             <HomeStudying />
+            <h1 className="heading padded">Projects</h1>
+            <HomeProjects />
             <h1 className="heading padded">Links :DD</h1>
             <HomeLinks />
         </div>
