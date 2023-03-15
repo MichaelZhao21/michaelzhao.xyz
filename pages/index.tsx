@@ -7,10 +7,11 @@ import HomeButtons from '../src/components/HomeButtons';
 import HomeProjects from '../src/components/HomeProjects';
 import HomeStudying from '../src/components/HomeStudying';
 import HomeLinks from '../src/components/HomeLinks';
+import Container from '../src/components/Container';
 
 const Home: NextPage = () => {
     return (
-        <div className={styles.container}>
+        <Container>
             <HomeTitle />
             <HomeArrows />
             <HomeTagline />
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
             <HomeProjects />
             <h1 className="heading padded">Links :DD</h1>
             <HomeLinks />
-        </div>
+        </Container>
     );
 };
 
