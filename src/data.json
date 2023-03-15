@@ -130,6 +130,18 @@
         {
             "title": "Candy Box 2",
             "href": "https://candybox2.github.io/"
+        },
+        {
+            "title": "Cats & Soup",
+            "href": "https://www.instagram.com/catsnsoup.official/?hl=en"
+        },
+        {
+            "title": "The Rust Book",
+            "href": "https://doc.rust-lang.org/book/"
+        },
+        {
+            "title": "Crafting Interpreters",
+            "href": "https://craftinginterpreters.com/"
         }
     ]
 }
