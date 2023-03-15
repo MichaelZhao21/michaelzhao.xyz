@@ -1,28 +1,25 @@
 import type { NextPage } from 'next';
-import styles from '../src/styles/Home.module.css';
 import HomeTitle from '../src/components/HomeTitle';
-import HomeArrows from '../src/components/HomeArrows';
 import HomeTagline from '../src/components/HomeTagline';
 import HomeButtons from '../src/components/HomeButtons';
 import HomeProjects from '../src/components/HomeProjects';
-import HomeStudying from '../src/components/HomeStudying';
+import HomeAbout from '../src/components/HomeAbout';
 import HomeLinks from '../src/components/HomeLinks';
-import Container from '../src/components/Container';
+import Heading from '../src/components/Heading';
 
 const Home: NextPage = () => {
     return (
-        <Container>
+        <div className="pb-40">
             <HomeTitle />
-            <HomeArrows />
             <HomeTagline />
             <HomeButtons />
-            <h1 className="heading padded">What I&apos;m Studying</h1>
-            <HomeStudying />
-            <h1 className="heading padded">Projects</h1>
+            <Heading>About Me</Heading>
+            <HomeAbout />
+            <Heading>Projects</Heading>
             <HomeProjects />
-            <h1 className="heading padded">Links :DD</h1>
+            <Heading>Links :DDD</Heading>
             <HomeLinks />
-        </Container>
+        </div>
     );
 };
 

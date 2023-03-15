@@ -1,27 +1,34 @@
-import styles from '../styles/HomeProjects.module.css';
 import data from '../data.json';
 
 const HomeProjects = () => {
     return (
-        <div className={styles.projects + ' padded'}>
+        <div className="mx-[10%] lg:mx-[25%] mb-8">
             {data.projects.map((p) => (
-                <div key={p.name} className={styles.project}>
-                    <a href={p.href} target="_blank" rel="noreferrer">
+                <div key={p.name} className="flex flex-col lg:flex-row justify-center">
+                    <a
+                        href={p.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-full lg:basis-1/2 lg:w-1/2 mb-4 lg:mb-8"
+                    >
                         <img
                             src={`/${p.name}.jpg`}
                             alt={p.name}
                             style={{ borderColor: p.color }}
+                            className="object-cover object-top border-[3px] border-solid rounded-xl cursor-pointer duration-200 hover:scale-105"
                         />
                     </a>
-                    <div className={styles.projectTag}>
+                    <div className="text-white w-full lg:w-1/2 lg:ml-[4%] lg:basis-[46%]">
                         <h2
-                            className={styles.projectTitle}
+                            className="text-3xl font-bold"
                             style={{ color: p.color }}
                         >
                             {p.display}
                         </h2>
-                        <p className={styles.projectSubtitle}>{p.position}</p>
-                        <p className={styles.projectDesc}>{p.description}</p>
+                        <p className="mt-1 mb-4 lg:mb-8 text-xl">{p.position}</p>
+                        <p className="text-textLight mt-1 mb-10 lg:text-xl">
+                            {p.description}
+                        </p>
                     </div>
                 </div>
             ))}

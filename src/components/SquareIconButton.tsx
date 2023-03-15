@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import styles from '../styles/SquareIconButton.module.css';
 
 const SquareIconButton = (props: {
     color: string;
@@ -8,15 +7,15 @@ const SquareIconButton = (props: {
     href: string;
 }) => {
     return (
-        <div className={styles.container}>
+        <div className="mx-2 md:mx-4 lg:mx-8">
             <a
-                className={styles.button}
+                className="h-20 w-20 md:h-36 md:w-36 rounded-2xl flex items-center justify-center broder-transparent border-solid cursor-pointer duration-200 hover:border-4 hover:scale-110"
                 style={{ backgroundColor: props.color }}
                 href={props.href}
                 target="_blank"
                 rel="noreferrer"
             >
-                <div className={styles.iconContainer}>
+                <div className="h-10 w-10 md:h-20 md:w-20 relative">
                     <Image
                         src={props.icon}
                         layout="fill"
@@ -25,7 +24,7 @@ const SquareIconButton = (props: {
                     />
                 </div>
             </a>
-            <div className={styles.text}>{props.text}</div>
+            <div className="w-20 md:w-36 text-center text-white md:text-2xl font-bold mt-2">{props.text}</div>
         </div>
     );
 };

@@ -48,39 +48,8 @@ a {
     width: max-content;
 
     /* Other props */
-    font-family: var(--title-font);
-    font-size: 3rem;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-}
-
-.padded {
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-@media screen and (max-width: 1300px) {
-    .padded {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .heading {
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .padded {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .heading {
-        font-size: 2rem;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-    }
+    /* font-family: var(--title-font); */
+    /* font-size: 3rem; */
+    /* margin-top: 5rem; */
+    /* margin-bottom: 2rem; */
 }

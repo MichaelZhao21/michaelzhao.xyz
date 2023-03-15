@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import styles from '../styles/HomeTagline.module.css';
 import data from '../data.json';
 import Image from 'next/image';
 
@@ -12,8 +11,8 @@ const HomeTagline = () => {
     }, []);
 
     return (
-        <div className={styles.container + ' padded'}>
-            <div className={styles.quoteContainer}>
+        <div className="mt-12 md:mt-24 flex flex-col mx-[10%] md:mx-[22.5%]">
+            <div className="h-8 w-8 md:h-12 md:w-12 relative self-start ml-[-1rem] md:ml-[-4rem]">
                 <Image
                     src="/quote.svg"
                     layout="fill"
@@ -21,7 +20,7 @@ const HomeTagline = () => {
                     alt="open quotation mark"
                 />
             </div>
-            <p className={styles.quote}>{quote}</p>
+            <p className="self-center text-4xl text-white text-center">{quote}</p>
         </div>
     );
 };

@@ -1,9 +1,8 @@
 import SquareIconButton from './SquareIconButton';
-import styles from '../styles/HomeButtons.module.css';
 
 const HomeButtons = () => {
     return (
-        <div className={styles.container}>
+        <div className="my-12 md:my-40 flex flex-row mx-[5%] md:mx-[22.5%] justify-center">
             <SquareIconButton
                 color="#E4B2CA"
                 icon="/email.svg"

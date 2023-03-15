@@ -11,9 +11,15 @@ module.exports = {
     theme: {
         extend: {
             colors: {
+                transparent: '#00000000',
                 primary: '#FDC355',
                 secondary: '#FF835B',
+                textLight: '#AAC1C8',
+                backgroundDark: '#3F4445',
             },
+            fontSize: {
+                '10xl': '10rem'
+            }
         },
     },
 };

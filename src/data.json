@@ -20,12 +20,28 @@
     ],
     "projects": [
         {
+            "name": "jury",
+            "display": "Jury",
+            "color": "#00ACE6",
+            "href": "https://github.com/MichaelZhao21/jury",
+            "position": "Creator, Developer",
+            "description": "A project designed to create a new pairwise judging system using modern technologies aimed at optimizing the user experience of judges and admin users. Using the same underlying statistical models and paper as Gavel, Jury is trying to deliver the best possible experience to everyone at the end of a grueling hackathon."
+        },
+        {
             "name": "tams-club-calendar",
             "display": "TAMS Club Calendar",
             "color": "#00CE00",
             "href": "https://tams.club",
-            "position": "Creator, Developer",
+            "position": "Creator, Developer, Designer",
             "description": "The TAMS Club Calendar is a fully contained event tracker, club/volunteering database, and general resource center. This is the unofficial club event calendar for the Texas Academy of Mathematics and Science (TAMS) student organizations!"
+        },
+        {
+            "name": "hackportal",
+            "display": "HackPortal",
+            "color": "#7B81FF",
+            "href": "https://hackportal.hackutd.co",
+            "position": "Contributor",
+            "description": "HackPortal is a platform for user-friendly hackathon event management. Developed by the HackUTD team with ACM Development, HackPortal features its own login system, QR code scanner, announcement notifications, and fully customizable event site."
         },
         {
             "name": "atab",
@@ -60,26 +76,26 @@
             "description": "A crude but effective Brainfuck interpreter written in C"
         }
     ],
-    "studying": [
+    "about": [
         {
-            "name": "fuzzing",
-            "title": "Fuzzing",
-            "body": "Exploring the automated testing of code through fuzzing research!"
+            "icon": "wand",
+            "title": "Who Am I?",
+            "body": "Hi! I'm Michael, an undergraduate student studying computer science at UTD. On my own time, I like to work on personal projects through code and art :DD"
         },
         {
-            "name": "ml",
-            "title": "Machine Learning",
-            "body": "Reading \"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems\""
+            "icon": "cpu",
+            "title": "Coding",
+            "body": "Ever since I've started learning how to code, I've never stopped learning and building new things. I've worked with various languages, frameworks, and libraries across multiple disciplines of computer science. Currently, I'm exploring the intricacies behind Rust and its unique approach to language design. I've listed an assortment of my projects below, and you can find all of my projects on Github!"
         },
         {
-            "name": "rust",
-            "title": "Rust",
-            "body": "Learning and building a project with the modern Rust language"
+            "icon": "dev",
+            "title": "Hackathons",
+            "body": "I have gone to most of the largest hackathons in Texas, and it's one of the most incredible experiences that any computer science student can have. A hackathon is a huge event where you and a team have 24 hours to build an innovative project and present it to judges. I've been to my fair share of hackathons (and won a couple), so I decided to settle down and help organize HackUTD. I currently serve as the director, and I hope to make this year's event the best we've ever had."
         },
         {
-            "name": "gavel",
-            "title": "Gavel Hackathon Judging System",
-            "body": "Exploring ways to rewrite Gavel, a hackathon judging system first created and used at HackMIT in 2015."
+            "icon": "vial",
+            "title": "Other Stuff!",
+            "body": "Besides coding and attending hackathons, I also enjoy making art — traditional sketching will always be my favorite, but I have been doing a lot more digital art/design; reading books — science fiction is definitely top tier; DnD — I play as a cleric weekly in an awesome campaign with an even more awesome group of people; and working out!"
         }
     ],
     "links": [
