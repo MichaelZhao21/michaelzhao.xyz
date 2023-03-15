@@ -25,7 +25,7 @@ const HomeProjects = () => {
                         >
                             {p.display}
                         </h2>
-                        <p className="mt-1 mb-4 lg:mb-8 text-xl">{p.position}</p>
+                        <p className="mt-1 mb-4 text-xl">{p.position}</p>
                         <p className="text-textLight mt-1 mb-10 lg:text-xl">
                             {p.description}
                         </p>
