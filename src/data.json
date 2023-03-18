@@ -44,6 +44,22 @@
             "description": "HackPortal is a platform for user-friendly hackathon event management. Developed by the HackUTD team with ACM Development, HackPortal features its own login system, QR code scanner, announcement notifications, and fully customizable event site."
         },
         {
+            "name": "eyealert",
+            "display": "EyeAlert",
+            "color": "#FF8F8F",
+            "href": "https://devpost.com/software/defatigue",
+            "position": "Contributor, Hacker",
+            "description": "Tracking human eye movement patterns in order to proactively alert people in high stake situations to reduce fatigue-based accidents. This hackathon project for HackDFW 2023 uses a machine learning model (in Python) to track the user's eye movements and determine if the user is showing fatigue. The React frontend uses a websocket to communicate with the backend's model and relay alerts to the user. The React Native mobile app records the user's history of fatigue for later analysis."
+        },
+        {
+            "name": "divi",
+            "display": "DIVI",
+            "color": "#A7D9F4",
+            "href": "https://devpost.com/software/digital-insurance-for-virtual-investments-divi",
+            "position": "Contributor, Hacker",
+            "description": "Digital Insurance for Virtual Investments -- A simple portal that assists employees in risk analysis, pricing, and comparison of digital assets! This project for HackUTD VIII (2021) was a simple React app that used analytical models to determine risk, aimed at extending the services of State Farm."
+        },
+        {
             "name": "atab",
             "display": "aTab",
             "color": "#00CE9D",

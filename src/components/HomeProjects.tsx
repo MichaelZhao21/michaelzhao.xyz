@@ -4,7 +4,10 @@ const HomeProjects = () => {
     return (
         <div className="mx-[10%] lg:mx-[25%] mb-8">
             {data.projects.map((p) => (
-                <div key={p.name} className="flex flex-col lg:flex-row justify-center">
+                <div
+                    key={p.name}
+                    className="flex flex-col lg:flex-row justify-center"
+                >
                     <a
                         href={p.href}
                         target="_blank"
@@ -32,6 +35,18 @@ const HomeProjects = () => {
                     </div>
                 </div>
             ))}
+            <div className="text-white text-xl">
+                ...And a lot more - see{' '}
+                <a
+                    href="https://github.com/MichaelZhao21"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline text-secondary duration-200 hover:text-primary"
+                >
+                    my Github
+                </a>{' '}
+                for all the lil projects and unfinished code bits I've done!
+            </div>
         </div>
     );
 };
