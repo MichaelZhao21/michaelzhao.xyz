@@ -45,7 +45,7 @@ const HomeProjects = () => {
                 >
                     my Github
                 </a>{' '}
-                for all the lil projects and unfinished code bits I've done!
+                for all the lil projects and unfinished code bits I&apos;ve done!
             </div>
         </div>
     );
