@@ -49,7 +49,7 @@
             "color": "#FF8F8F",
             "href": "https://devpost.com/software/defatigue",
             "position": "Contributor, Hacker",
-            "description": "Tracking human eye movement patterns in order to proactively alert people in high stake situations to reduce fatigue-based accidents. This hackathon project for HackDFW 2023 uses a machine learning model (in Python) to track the user's eye movements and determine if the user is showing fatigue. The React frontend uses a websocket to communicate with the backend's model and relay alerts to the user. The React Native mobile app records the user's history of fatigue for later analysis."
+            "description": "Tracking human eye movement patterns in order to proactively alert people in high stake situations to reduce fatigue-based accidents. This hackathon project for HackDFW 2022 uses a machine learning model (in Python) to track the user's eye movements and determine if the user is showing fatigue. The React frontend uses a websocket to communicate with the backend's model and relay alerts to the user. The React Native mobile app records the user's history of fatigue for later analysis."
         },
         {
             "name": "divi",
