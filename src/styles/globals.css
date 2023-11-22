@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 :root {
-    --text-font: Lexend, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    --title-font: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
-    --background: #303334;
-    --background-trans: #303334dd;
-    --text-light: #AAC1C8;
+    --text-font: 'Nanum Myeongjo', Georgia, 'Times New Roman', Times, serif;
+    --title-font: 'Libre Caslon Text', Georgia, 'Times New Roman', Times, serif;
+    --background: #F5F1E7;
+}
+
+h1 {
+    font-family: var(--title-font);
 }
 
 html,
@@ -21,35 +22,19 @@ body {
 
 a {
     color: inherit;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #888888;
 }
 
 * {
     box-sizing: border-box;
 }
 
-.heading {
-    /* Colors */
-    --primary: #FDC355;
-    --secondary: #FF835B;
-
-    /* Fallback */
-    color: #fff;
-
-    /* Gradient Formatting */
-    background: linear-gradient(135deg, var(--primary), var(--primary) 15%, var(--secondary) 85%, var(--secondary));
-    background-clip: text !important;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-
-    /* Width for gradient */
-    width: max-content;
-
-    /* Other props */
-    /* font-family: var(--title-font); */
-    /* font-size: 3rem; */
-    /* margin-top: 5rem; */
-    /* margin-bottom: 2rem; */
+@media (min-width: 640px) {
+    html {
+        font-size: 16px;
+    }
 }

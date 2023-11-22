@@ -1,22 +1,92 @@
 {
+    "topLinks": [
+        {
+            "title": "Email",
+            "href": "mailto:michaelzhao314@gmail.com",
+            "description": "michaelzhao314@gmail.com"
+        },
+        {
+            "title": "Resume",
+            "href": "https://mikz.dev/resume",
+            "description": "mikz.dev/resume"
+        },
+        {
+            "title": "LinkedIn",
+            "href": "https://www.linkedin.com/in/michaelzhao21/",
+            "description": "linkedin.com/in/michaelzhao21"
+        },
+        {
+            "title": "Github",
+            "href": "https://github.com/MichaelZhao21",
+            "description": "github.com/MichaelZhao21"
+        }
+    ],
     "quotes": [
-        "The whole secret lies in confusing the enemy, so that he cannot fathom our real intent. (Sun Tzu)",
-        "...and the universe said I love you",
-        "The most effective leaders strive to serve others over themselves",
-        "When all Americans are treated as equal, no matter who they are or whom they love, we are all more free. (President Barack Obama)",
-        "This world would be a whole lot better if we just made an effort to be less horrible to one another. (Elliot Page)",
-        "There's nothing wrong with you. There's a lot wrong with the world you live in. (Chris Colfer)",
-        "Dance like nobody's watching",
-        "A brave man acknowledges the strength of others. (Veronica Roth)",
-        "The biggest adventure you can ever take is to live the life of your dreams. (Oprah Winfrey)",
-        "Be yourself; everyone else is already taken. (Oscar Wilde)",
-        "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe. (Albert Einstein)",
-        "You only live once, but if you do it right, once is enough. (Mae West)",
-        "There are no uninteresting things, only uninterested people. (G.K. Chesterton)",
-        "For every minute you are angry you lose sixty seconds of happiness. (Ralph Waldo Emerson)",
-        "Somewhere, something incredible is waiting to be known. (Carl Sagan)",
-        "Do one thing every day that scares you. (Eleanor Roosevelt)",
-        "We reveal most about ourselves when we speak about others. (Kamand Kojouri)"
+        {
+            "text": "The whole secret lies in confusing the enemy, so that he cannot fathom our real intent.",
+            "author": "Sun Tzu"
+        },
+        {
+            "text": "...and the universe said I love you",
+            "author": "anonymous"
+        },
+        {
+            "text": "The most effective leaders strive to serve others over themselves",
+            "author": "anonymous"
+        },
+        {
+            "text": "When all Americans are treated as equal, no matter who they are or whom they love, we are all more free.",
+            "author": "President Barack Obama"
+        },
+        {
+            "text": "This world would be a whole lot better if we just made an effort to be less horrible to one another.",
+            "author": "Elliot Page"
+        },
+        {
+            "text": "There's nothing wrong with you. There's a lot wrong with the world you live in.",
+            "author": "Chris Colfer"
+        },
+        { "text": "Dance like nobody's watching", "author": "anonymous" },
+        {
+            "text": "A brave man acknowledges the strength of others.",
+            "author": "Veronica Roth"
+        },
+        {
+            "text": "The biggest adventure you can ever take is to live the life of your dreams.",
+            "author": "Oprah Winfrey"
+        },
+        {
+            "text": "Be yourself; everyone else is already taken.",
+            "author": "Oscar Wilde"
+        },
+        {
+            "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+            "author": "Albert Einstein"
+        },
+        {
+            "text": "You only live once, but if you do it right, once is enough.",
+            "author": "Mae West"
+        },
+        {
+            "text": "There are no uninteresting things, only uninterested people.",
+            "author": "G.K. Chesterton"
+        },
+        {
+            "text": "For every minute you are angry you lose sixty seconds of happiness.",
+            "author": "Ralph Waldo Emerson"
+        },
+        {
+            "text": "Somewhere, something incredible is waiting to be known.",
+            "author": "Carl Sagan"
+        },
+        {
+            "text": "Do one thing every day that scares you.",
+            "author": "Eleanor Roosevelt"
+        },
+        {
+            "text": "We reveal most about ourselves when we speak about others.",
+            "author": "Kamand Kojouri"
+        }
     ],
     "projects": [
         {
@@ -92,72 +162,56 @@
             "description": "A crude but effective Brainfuck interpreter written in C"
         }
     ],
-    "about": [
-        {
-            "icon": "wand",
-            "title": "Who Am I?",
-            "body": "Hi! I'm Michael, an undergraduate student studying computer science at UTD. On my own time, I like to work on personal projects through code and art :DD"
-        },
-        {
-            "icon": "cpu",
-            "title": "Coding",
-            "body": "Ever since I've started learning how to code, I've never stopped learning and building new things. I've worked with various languages, frameworks, and libraries across multiple disciplines of computer science. Currently, I'm exploring the intricacies behind Rust and its unique approach to language design. I've listed an assortment of my projects below, and you can find all of my projects on Github!"
-        },
-        {
-            "icon": "dev",
-            "title": "Hackathons",
-            "body": "I have gone to most of the largest hackathons in Texas, and it's one of the most incredible experiences that any computer science student can have. A hackathon is a huge event where you and a team have 24 hours to build an innovative project and present it to judges. I've been to my fair share of hackathons (and won a couple), so I decided to settle down and help organize HackUTD. I currently serve as the director, and I hope to make this year's event the best we've ever had."
-        },
-        {
-            "icon": "vial",
-            "title": "Other Stuff!",
-            "body": "Besides coding and attending hackathons, I also enjoy making art — traditional sketching will always be my favorite, but I have been doing a lot more digital art/design; reading books — science fiction is definitely top tier; DnD — I play as a cleric weekly in an awesome campaign with an even more awesome group of people; and working out!"
-        }
-    ],
     "links": [
         {
             "title": "Occam's Razor",
-            "href": "https://conceptually.org/concepts/occams-razor"
+            "href": "https://conceptually.org/concepts/occams-razor",
+            "cat": "Interesting Concept"
         },
         {
             "title": "Library of Babel",
-            "href": "https://libraryofbabel.info/"
+            "href": "https://libraryofbabel.info/",
+            "cat": "Cool Site"
         },
         {
             "title": "The Cube Rule",
-            "href": "https://cuberule.com/"
+            "href": "https://cuberule.com/",
+            "cat": "Cool Site"
         },
         {
             "title": "Principle of Least Astonishment",
-            "href": "https://en.wikipedia.org/wiki/Principle_of_least_astonishment"
+            "href": "https://en.wikipedia.org/wiki/Principle_of_least_astonishment",
+            "cat": "Interesting Concept"
         },
         {
             "title": "User Inyerface",
-            "href": "https://userinyerface.com/"
+            "href": "https://userinyerface.com/",
+            "cat": "Cool Site"
         },
         {
             "title": "Draw a Perfect Circle",
-            "href": "https://vladgotlib.com/circular/"
+            "href": "https://vladgotlib.com/circular/",
+            "cat": "Cool Site"
         },
         {
             "title": "When2Meet",
-            "href": "https://www.when2meet.com/"
+            "href": "https://www.when2meet.com/",
+            "cat": "Useful"
         },
         {
             "title": "Candy Box 2",
-            "href": "https://candybox2.github.io/"
+            "href": "https://candybox2.github.io/",
+            "cat": "Fun Games"
         },
         {
             "title": "Cats & Soup",
-            "href": "https://www.instagram.com/catsnsoup.official/?hl=en"
-        },
-        {
-            "title": "The Rust Book",
-            "href": "https://doc.rust-lang.org/book/"
+            "href": "https://www.instagram.com/catsnsoup.official/?hl=en",
+            "cat": "Fun Games"
         },
         {
             "title": "Crafting Interpreters",
-            "href": "https://craftinginterpreters.com/"
+            "href": "https://craftinginterpreters.com/",
+            "cat": "Good Material"
         }
     ]
 }
