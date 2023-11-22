@@ -73,26 +73,34 @@ const HomeMiscLinks = () => {
 
     return (
         <div>
-            <h1 className="text-2xl sm:text-4xl font-bold mb-2">Random Links!</h1>
+            <h1 className="text-2xl sm:text-4xl font-bold mb-2">
+                Random Links!
+            </h1>
             <div className="my-2 flex sm:text-xl">
                 <p className="font-bold">Sort By:</p>
                 {sorts.map((sortName) => (
-                    <SortButton name={sortName} setSort={setSort} sort={sort} />
+                    <SortButton
+                        name={sortName}
+                        setSort={setSort}
+                        sort={sort}
+                        key={sortName}
+                    />
                 ))}
             </div>
             {links.map((linkCat) => (
-                <p className="sm:text-2xl mb-1">
+                <p className="sm:text-2xl mb-1" key={linkCat.cat}>
                     {linkCat.cat !== '' && (
                         <span className="font-bold">{`<${linkCat.cat}> `}</span>
                     )}
                     {linkCat.links.map((link, i) => (
                         <>
-                            <span>{i === 0 ? '' : ' · '}</span>
+                            <span key={i}>{i === 0 ? '' : ' · '}</span>
                             <a
                                 href={link.href}
                                 target="_blank"
                                 rel="noreferrer"
                                 className="no-underline"
+                                key={i}
                             >
                                 {link.title}
                             </a>

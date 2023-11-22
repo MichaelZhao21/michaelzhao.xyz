@@ -21,7 +21,7 @@ const HomeDescription = () => {
                 <div className="flex flex-col w-fit">
                     <Line thin />
                     <p className="pt-2 lg:py-2 md:text-2xl">
-                        Hi! I'm Michael, a graduate student studying computer
+                        Hi! I&apos;m Michael, a graduate student studying computer
                         science at UTD. On my own time, I like to work on
                         personal projects through code and art :D
                     </p>
@@ -72,10 +72,10 @@ const ExtraDescription = () => {
     return (
         <>
             <p className="md:text-2xl">
-                I've been going to hackathons all through college, and I was the
+                I&apos;ve been going to hackathons all through college, and I was the
                 director of HackUTD X! I love meeting new people and hanging out
-                with my friends, whether it's getting Boba from a local shop or
-                playing TTRPGs like DnD (I'm a Cleric for a campaign rn and
+                with my friends, whether it&apos;s getting Boba from a local shop or
+                playing TTRPGs like DnD (I&apos;m a Cleric for a campaign rn and
                 planning one myself). Drawing has always been one of my
                 passions, and I sketch or paint whenever I can. Besides that, I
                 love playing rhythm, metroidvania, and rougelike games such as
