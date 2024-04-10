@@ -11,7 +11,7 @@ const HomeDescription = () => {
             <div className="flex flex-row w-full">
                 <div className="relative shrink-0 mr-3 lg:w-[20rem] w-[8rem] lg:h-[28rem] h-[11rem]">
                     <Image
-                        src="/me.webp"
+                        src="/me.jpg"
                         layout="fill"
                         objectFit="contain"
                         objectPosition="top"
