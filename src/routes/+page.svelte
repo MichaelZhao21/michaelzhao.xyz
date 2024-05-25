@@ -1,7 +1,7 @@
 <script>
-	import Hero from "./hero.svelte";
-	import Navbar from "./navbar.svelte";
-
+	import Bubbles from './bubbles.svelte';
+	import Hero from './hero.svelte';
+	import Navbar from './navbar.svelte';
 </script>
 
 <svelte:head>
@@ -15,20 +15,22 @@
 
 <h1 class="name">Michael Zhao</h1>
 
+<Bubbles />
+
 <style>
 	.name {
-        max-width: fit-content;
-        float: right;
+		max-width: fit-content;
+		float: right;
 		margin-right: 2rem;
 		margin-top: 1rem;
 		font-size: 6rem;
 		font-family: 'Indie Flower', 'Courier New', Courier, monospace;
-        color: white;
-        filter: drop-shadow(3px 3px 0 #3F82BF);
+		color: white;
+		filter: drop-shadow(3px 3px 0 #3f82bf);
 	}
 
-    /* Anything less than 1200 (landscape tablets) */
-    @media only screen and (max-width: 1200px) {
+	/* Anything less than 1200 (landscape tablets) */
+	@media only screen and (max-width: 1200px) {
 		.name {
 			font-size: 5rem;
 			margin-top: 0.5rem;
@@ -42,5 +44,5 @@
 			margin-top: 0;
 			margin-right: 1rem;
 		}
-	} 
+	}
 </style>
