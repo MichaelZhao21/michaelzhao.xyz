@@ -1,6 +1,6 @@
 <script>
-	import Bubbles from './bubbles.svelte';
-	import Hero from './hero.svelte';
+	import Bubbles from './header/bubbles.svelte';
+	import Hero from './header/hero.svelte';
 	import Navbar from './navbar.svelte';
 </script>
 
