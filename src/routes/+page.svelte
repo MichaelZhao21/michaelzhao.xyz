@@ -26,4 +26,21 @@
         color: white;
         filter: drop-shadow(3px 3px 0 #3F82BF);
 	}
+
+    /* Anything less than 1200 (landscape tablets) */
+    @media only screen and (max-width: 1200px) {
+		.name {
+			font-size: 5rem;
+			margin-top: 0.5rem;
+		}
+	}
+
+	/* Anything less than 768 (phones, vertical tablets) */
+	@media only screen and (max-width: 768px) {
+		.name {
+			font-size: 3.5rem;
+			margin-top: 0;
+			margin-right: 1rem;
+		}
+	} 
 </style>
