@@ -1,6 +1,8 @@
 <script>
 	import Bubbles from './header/bubbles.svelte';
 	import Hero from './header/hero.svelte';
+	import Heading from './heading.svelte';
+	import InterestGrid from './interests/interestGrid.svelte';
 	import Navbar from './navbar.svelte';
 </script>
 
@@ -24,6 +26,10 @@
 	work on personal projects through code and art :D
 </p>
 
+<div class="container">
+	<Heading start="F16ADB" end="FBA5A5">Current Interests</Heading>
+	<InterestGrid />
+</div>
 <p class="footer">Thanks for visiting! - 🧡 Mikey :D</p>
 
 <style>
@@ -43,15 +49,20 @@
 		height: 62vw;
 	}
 
+	.container {
+		padding: 0 4rem;
+	}
+
 	.intro {
 		margin-top: 1rem;
 		padding: 0 1rem;
 		text-align: center;
-		color: #A46E48;
+		color: #a46e48;
+		font-size: 1.25rem;
 	}
 
 	.footer {
-		color: #A58A77;
+		color: #a58a77;
 		padding-left: 0.5rem;
 		padding-bottom: 0.5rem;
 		padding-top: 1rem;
@@ -75,6 +86,14 @@
 			font-size: 3.5rem;
 			margin-top: 0;
 			margin-right: 1rem;
+		}
+
+		.intro {
+			font-size: 1rem;
+		}
+
+		.container {
+			padding: 0 1rem;
 		}
 	}
 </style>
