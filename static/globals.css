@@ -1,0 +1,23 @@
+html,
+body,
+div,
+h1,
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Lexend', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: transparent;
+	min-height: 100vh;
+}
+
+html {
+	background-color: #f6ede7;
+	min-height: 100vh;
+}
