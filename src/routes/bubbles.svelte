@@ -16,21 +16,22 @@
         flex-basis: 20%;
         width: 100%;
         justify-content: space-evenly;
-        position: relative;
-        top: 34vw;
+        position: absolute;
+        top: 43vw;
     }
 
     /* Anything less than 1200 (tablets) */
     @media only screen and (max-width: 1200px) {
         .bubble-container {
-            top: 28rem;
+            top: 36rem;
         }
     }
 
 	/* Anything less than 768 (phones, vertical tablets) */
 	@media only screen and (max-width: 768px) {
         .bubble-container {
-            top: 32rem;
+            top: 40rem;
         }
     }
+
 </style>

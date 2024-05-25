@@ -17,6 +17,15 @@
 
 <Bubbles />
 
+<div class="header-spacing"></div>
+
+<p class="intro">
+	Hi! I'm Michael, a graduate student studying computer science at UTD. On my own time, I like to
+	work on personal projects through code and art :D
+</p>
+
+<p class="footer">Thanks for visiting! - 🧡 Mikey :D</p>
+
 <style>
 	.name {
 		max-width: fit-content;
@@ -29,11 +38,34 @@
 		filter: drop-shadow(3px 3px 0 #3f82bf);
 	}
 
+	.header-spacing {
+		width: 100%;
+		height: 62vw;
+	}
+
+	.intro {
+		margin-top: 1rem;
+		padding: 0 1rem;
+		text-align: center;
+		color: #A46E48;
+	}
+
+	.footer {
+		color: #A58A77;
+		padding-left: 0.5rem;
+		padding-bottom: 0.5rem;
+		padding-top: 1rem;
+	}
+
 	/* Anything less than 1200 (landscape tablets) */
 	@media only screen and (max-width: 1200px) {
 		.name {
 			font-size: 5rem;
 			margin-top: 0.5rem;
+		}
+
+		.header-spacing {
+			height: 50rem;
 		}
 	}
 
