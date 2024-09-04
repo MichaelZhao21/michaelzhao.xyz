@@ -5,6 +5,7 @@
 	import InterestGrid from './interests/interestGrid.svelte';
 	import Navbar from './navbar.svelte';
 	import Projects from './projects/projects.svelte';
+	import QuoteBox from './quoteBox.svelte';
 </script>
 
 <svelte:head>
@@ -33,6 +34,11 @@
 
 	<Heading start="E45200" end="AE56F3" id="projects">Projects</Heading>
 	<Projects />
+
+	<!-- <Heading start="006CBA" end="00D1FF" id="workshops">Workshops</Heading> -->
+	<!-- <Heading start="26C000" end="D3BF0A" id="fun-links">Fun Links</Heading> -->
+
+	<QuoteBox />
 </div>
 <p class="footer">Thanks for visiting! - 🧡 Mikey :D</p>
 

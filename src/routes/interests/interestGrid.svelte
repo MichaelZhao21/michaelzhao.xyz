@@ -3,9 +3,10 @@
 </script>
 
 <div class="grid">
-	<Interest icon="settings">Learning Rust (again) for a *secret project*</Interest>
-	<Interest icon="kid_star">Reading about Rank Aggregation</Interest>
-	<Interest icon="directions_run">Tryna run a 5k</Interest>
+	<Interest icon="settings">Using Tauri to build a desktop app</Interest>
+	<Interest icon="kid_star">Researching Rank Aggregation</Interest>
+	<Interest icon="music_note">Learning to play guitar</Interest>
+	<Interest icon="menu_book">Reading more nonfiction books</Interest>
 </div>
 
 <style>

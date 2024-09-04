@@ -11,9 +11,10 @@
 	.int {
 		display: flex;
 		flex-direction: row;
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		color: #373c3e;
         padding: 0.5rem 1rem;
+		align-items: center;
 	}
 
 	.icon {

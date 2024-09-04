@@ -23,8 +23,10 @@
 		{/each}
 	</div>
 </div>
-<p class="others">...and a lot more :D</p>
-<p class="others">See my Github for ALL the lil projects and unfinished code bits I've done!</p>
+<div class="others-cont">
+	<p class="others">...and a lot more :D</p>
+	<p class="others">See my Github for ALL the lil projects and unfinished code bits I've done!</p>
+</div>
 
 <style>
 	.cont {
@@ -60,7 +62,10 @@
 	.others {
 		color: var(--text-accent);
 		text-align: center;
-		font-size: 1.5rem;
+	}
+
+	.others-cont {
+		margin-bottom: 2rem;
 	}
 
 	/* Anything less than 1200 (landscape tablets) */
