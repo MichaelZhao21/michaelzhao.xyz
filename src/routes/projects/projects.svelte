@@ -4,9 +4,9 @@
 
 <div class="cont">
 	<div class="line-group">
-		<img src="/imgs/semicircle.svg" alt="o" class="u u-top" />
+		<img src="/assets/semicircle.svg" alt="o" class="u u-top" />
 		<div class="line"></div>
-		<img src="/imgs/semicircle.svg" alt="o" class="u u-bottom" />
+		<img src="/assets/semicircle.svg" alt="o" class="u u-bottom" />
 	</div>
 	<div class="proj-list">
 		<Project

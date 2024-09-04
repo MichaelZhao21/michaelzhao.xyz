@@ -7,7 +7,7 @@
 
 <img
 	alt="sheep"
-	src="/imgs/sheep.png"
+	src="/assets/sheep.png"
 	width={small ? 100 : 150}
 	style={`left: ${left}%; top: ${top}%; ${flipped && 'transform: scaleX(-1);'}`}
     class="sheep"

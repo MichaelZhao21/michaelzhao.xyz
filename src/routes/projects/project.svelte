@@ -10,12 +10,12 @@
 
 <div class="project">
 	<div class="date-cont">
-		<img src="/imgs/circle.svg" alt="o" class="circle" />
+		<img src="/assets/circle.svg" alt="o" class="circle" />
 		<p class="date">{date}</p>
 	</div>
 	<div class="web-date-cont">
 		<p class="web-date">{date}</p>
-		<img src="/imgs/circle.svg" alt="o" class="web-circle" />
+		<img src="/assets/circle.svg" alt="o" class="web-circle" />
 	</div>
 	<div class="right">
 		<a href={url}>

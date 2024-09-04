@@ -3,7 +3,7 @@
 
 </script>
 <div class="hero">
-	<img src="/imgs/landscape.png" alt="landscape background" class="cover" />
+	<img src="/assets/landscape.png" alt="landscape background" class="cover" />
 	<div class="cover-grad"></div>
 
     <div class="sheep-cont">

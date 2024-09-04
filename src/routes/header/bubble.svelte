@@ -7,9 +7,9 @@
 </script>
 
 <a class="bubble" style={`top: ${y}px`} {href} target="_blank">
-	<img src={`imgs/bubble${num}.png`} alt={`bubble ${num}`} class="bubble-bg" />
+	<img src={`assets/bubble${num}.png`} alt={`bubble ${num}`} class="bubble-bg" />
 	<img
-		src={`imgs/${icon}.svg`}
+		src={`assets/${icon}.svg`}
 		alt={`${icon} icon`}
 		class={`bubble-text ${biggerIcon ? 'bigger' : ''}`}
 	/>
