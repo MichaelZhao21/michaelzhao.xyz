@@ -1,9 +1,10 @@
 <script lang="ts">
 	export let start: string;
 	export let end: string;
+    export let id: string;
 </script>
 
-<h1 class="heading" style={`background-image: -webkit-linear-gradient(#${start}, #${end});`}>
+<h1 id={id} class="heading" style={`background-image: -webkit-linear-gradient(0deg, #${start}, #${end});`}>
 	<slot />
 </h1>
 

@@ -4,6 +4,7 @@
 	import Heading from './heading.svelte';
 	import InterestGrid from './interests/interestGrid.svelte';
 	import Navbar from './navbar.svelte';
+	import Projects from './projects/projects.svelte';
 </script>
 
 <svelte:head>
@@ -27,8 +28,11 @@
 </p>
 
 <div class="container">
-	<Heading start="F16ADB" end="FBA5A5">Current Interests</Heading>
+	<Heading start="F16ADB" end="FBA5A5" id="about-me">Current Interests</Heading>
 	<InterestGrid />
+
+	<Heading start="E45200" end="AE56F3" id="projects">Projects</Heading>
+	<Projects />
 </div>
 <p class="footer">Thanks for visiting! - 🧡 Mikey :D</p>
 
@@ -57,7 +61,7 @@
 		margin-top: 1rem;
 		padding: 0 1rem;
 		text-align: center;
-		color: #a46e48;
+		color: var(--text-accent);
 		font-size: 1.25rem;
 	}
 

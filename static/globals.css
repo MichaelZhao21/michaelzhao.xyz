@@ -2,6 +2,8 @@ html,
 body,
 div,
 h1,
+h2,
+h3,
 p {
 	margin: 0;
 	padding: 0;
@@ -20,4 +22,11 @@ body {
 html {
 	background-color: #f6ede7;
 	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+:root {
+	--text-accent: #a46e48;
+	--text-accent-light: #A58A77;
+	--lighter: #E3D1C5;
 }

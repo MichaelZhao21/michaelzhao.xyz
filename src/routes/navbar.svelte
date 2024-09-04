@@ -48,9 +48,10 @@
 		align-items: center;
 		width: 100%;
 		padding: 1rem 0;
-		position: fixed;
+		position: absolute;
 		top: 0;
 		left: 1rem;
+		z-index: 100;
 	}
 
 	.nb-item {
@@ -76,7 +77,7 @@
 		border: none;
 		background: transparent;
 		cursor: pointer;
-		position: fixed;
+		position: absolute;
 		top: 1rem;
 		left: 1rem;
 		display: none;
