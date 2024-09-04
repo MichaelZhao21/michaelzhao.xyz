@@ -15,7 +15,7 @@
 
 <Hero />
 
-<Navbar />
+<!-- <Navbar /> -->
 
 <h1 class="name">Michael Zhao</h1>
 
@@ -48,7 +48,7 @@
 		float: right;
 		margin-right: 2rem;
 		margin-top: 1rem;
-		font-size: 6rem;
+		font-size: 8rem;
 		font-family: 'Indie Flower', 'Courier New', Courier, monospace;
 		color: white;
 		filter: drop-shadow(3px 3px 0 #3f82bf);
