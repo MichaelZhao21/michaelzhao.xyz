@@ -1,0 +1,226 @@
+{
+    "topLinks": [
+        {
+            "title": "Email",
+            "href": "mailto:michaelzhao314@gmail.com",
+            "description": "michaelzhao314@gmail.com"
+        },
+        {
+            "title": "Resume",
+            "href": "https://mikz.dev/resume",
+            "description": "mikz.dev/resume"
+        },
+        {
+            "title": "LinkedIn",
+            "href": "https://www.linkedin.com/in/michaelzhao21/",
+            "description": "linkedin.com/in/michaelzhao21"
+        },
+        {
+            "title": "Github",
+            "href": "https://github.com/MichaelZhao21",
+            "description": "github.com/MichaelZhao21"
+        }
+    ],
+    "quotes": [
+        {
+            "text": "The whole secret lies in confusing the enemy, so that he cannot fathom our real intent.",
+            "author": "Sun Tzu"
+        },
+        {
+            "text": "...and the universe said I love you",
+            "author": "anonymous"
+        },
+        {
+            "text": "The most effective leaders strive to serve others over themselves",
+            "author": "anonymous"
+        },
+        {
+            "text": "When all Americans are treated as equal, no matter who they are or whom they love, we are all more free.",
+            "author": "President Barack Obama"
+        },
+        {
+            "text": "This world would be a whole lot better if we just made an effort to be less horrible to one another.",
+            "author": "Elliot Page"
+        },
+        {
+            "text": "There's nothing wrong with you. There's a lot wrong with the world you live in.",
+            "author": "Chris Colfer"
+        },
+        { "text": "Dance like nobody's watching", "author": "anonymous" },
+        {
+            "text": "A brave man acknowledges the strength of others.",
+            "author": "Veronica Roth"
+        },
+        {
+            "text": "The biggest adventure you can ever take is to live the life of your dreams.",
+            "author": "Oprah Winfrey"
+        },
+        {
+            "text": "Be yourself; everyone else is already taken.",
+            "author": "Oscar Wilde"
+        },
+        {
+            "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+            "author": "Albert Einstein"
+        },
+        {
+            "text": "You only live once, but if you do it right, once is enough.",
+            "author": "Mae West"
+        },
+        {
+            "text": "There are no uninteresting things, only uninterested people.",
+            "author": "G.K. Chesterton"
+        },
+        {
+            "text": "For every minute you are angry you lose sixty seconds of happiness.",
+            "author": "Ralph Waldo Emerson"
+        },
+        {
+            "text": "Somewhere, something incredible is waiting to be known.",
+            "author": "Carl Sagan"
+        },
+        {
+            "text": "Do one thing every day that scares you.",
+            "author": "Eleanor Roosevelt"
+        },
+        {
+            "text": "We reveal most about ourselves when we speak about others.",
+            "author": "Kamand Kojouri"
+        }
+    ],
+    "projects": [
+        {
+            "name": "jury",
+            "display": "Jury",
+            "color": "#00ACE6",
+            "href": "https://jury.mikz.dev",
+            "position": "Creator, Developer",
+            "date": "Dec 2022 - Present",
+            "description": "A project designed to create a new pairwise judging system using modern technologies aimed at optimizing the user experience of judges and admin users. Using the same underlying statistical models and paper as Gavel, Jury is trying to deliver the best possible experience to everyone at the end of a grueling hackathon."
+        },
+        {
+            "name": "tcc",
+            "display": "TAMS Club Calendar",
+            "color": "#00CE00",
+            "href": "https://tams.club",
+            "position": "Creator, Developer, Designer",
+            "date": "Dec 2020 - Aug 2023",
+            "description": "The TAMS Club Calendar is a fully contained event tracker, club/volunteering database, and general resource center. This is the unofficial club event calendar for the Texas Academy of Mathematics and Science (TAMS) student organizations!"
+        },
+        {
+            "name": "hackportal",
+            "display": "HackPortal",
+            "color": "#7B81FF",
+            "href": "https://hackportal.hackutd.co",
+            "position": "Contributor",
+            "date": "Jun 2022 - Feb 2023",
+            "description": "HackPortal is a platform for user-friendly hackathon event management. Developed by the HackUTD team with ACM Development, HackPortal features its own login system, QR code scanner, announcement notifications, and fully customizable event site."
+        },
+        {
+            "name": "eyealert",
+            "display": "EyeAlert",
+            "color": "#FF8F8F",
+            "href": "https://devpost.com/software/defatigue",
+            "position": "Contributor, Hacker",
+            "date": "Sep 2022",
+            "description": "Tracking human eye movement patterns in order to proactively alert people in high stake situations to reduce fatigue-based accidents. This hackathon project for HackDFW 2022 uses a machine learning model (in Python) to track the user's eye movements and determine if the user is showing fatigue. The React frontend uses a websocket to communicate with the backend's model and relay alerts to the user. The React Native mobile app records the user's history of fatigue for later analysis."
+        },
+        {
+            "name": "stickerinator",
+            "display": "Stickerinator",
+            "color": "#D06FFE",
+            "href": "https://github.com/MichaelZhao21/stickerinator",
+            "position": "Creator, Developer",
+            "date": "Feb 2022",
+            "description": "Remove backgrounds and add a border to your images to turn them into stickers!"
+        },
+        {
+            "name": "bf",
+            "display": "BrainF*ck Interpreter",
+            "color": "#CEA100",
+            "href": "https://github.com/MichaelZhao21/bf-interpreter",
+            "position": "Creator, Developer",
+            "date": "Feb 2022",
+            "description": "A crude but effective Brainfuck interpreter written in C"
+        },
+        {
+            "name": "divi",
+            "display": "DIVI",
+            "color": "#A7D9F4",
+            "href": "https://devpost.com/software/digital-insurance-for-virtual-investments-divi",
+            "position": "Contributor, Hacker",
+            "date": "Nov 2021",
+            "description": "Digital Insurance for Virtual Investments -- A simple portal that assists employees in risk analysis, pricing, and comparison of digital assets! This project for HackUTD VIII (2021) was a simple React app that used analytical models to determine risk, aimed at extending the services of State Farm."
+        },
+        {
+            "name": "atab",
+            "display": "aTab",
+            "color": "#00CE9D",
+            "href": "https://github.com/MichaelZhao21/atab",
+            "position": "Creator, De2023veloper",
+            "date": "Mar 2021 - Aug 2021",
+            "description": "aTab is an extension that will replace your new tab into a more productive and useful interface! The interface features an aesthetic dark material theme, a news feed (from the News API), a list of customizable links on a sidebar, a place to jot down quick notes that can sync across devices, and a nice date/time display."
+        },
+        {
+            "name": "discord-pr",
+            "display": "Discord PR Notifs",
+            "color": "#2795FB",
+            "href": "https://github.com/MichaelZhao21/pr-discord-notif",
+            "position": "Creator, Developer",
+            "date": "Dec 2020 - Jan 2021",
+            "description": "Listens to new pull requests from a Github repository and sends a message to a Discord text channel when a pull request is created. This is done through Github Webhooks, the Github API, and the Discordjs Bot Library."
+        }
+    ],
+    "links": [
+        {
+            "title": "Occam's Razor",
+            "href": "https://conceptually.org/concepts/occams-razor",
+            "cat": "Interesting Concept"
+        },
+        {
+            "title": "Library of Babel",
+            "href": "https://libraryofbabel.info/",
+            "cat": "Cool Site"
+        },
+        {
+            "title": "The Cube Rule",
+            "href": "https://cuberule.com/",
+            "cat": "Cool Site"
+        },
+        {
+            "title": "Principle of Least Astonishment",
+            "href": "https://en.wikipedia.org/wiki/Principle_of_least_astonishment",
+            "cat": "Interesting Concept"
+        },
+        {
+            "title": "User Inyerface",
+            "href": "https://userinyerface.com/",
+            "cat": "Cool Site"
+        },
+        {
+            "title": "Draw a Perfect Circle",
+            "href": "https://vladgotlib.com/circular/",
+            "cat": "Cool Site"
+        },
+        {
+            "title": "When2Meet",
+            "href": "https://www.when2meet.com/",
+            "cat": "Useful"
+        },
+        {
+            "title": "Candy Box 2",
+            "href": "https://candybox2.github.io/",
+            "cat": "Fun Games"
+        },
+        {
+            "title": "Cats & Soup",
+            "href": "https://www.instagram.com/catsnsoup.official/?hl=en",
+            "cat": "Fun Games"
+        },
+        {
+            "title": "Crafting Interpreters",
+            "href": "https://craftinginterpreters.com/",
+            "cat": "Good Material"
+        }
+    ]
+}

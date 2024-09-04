@@ -23,11 +23,11 @@
 				src={`/imgs/${name}.jpg`}
 				alt={`project ${name} thumbnail`}
 				class="thumb"
-				style={`border-color: #${color}`}
+				style={`border-color: ${color}`}
 			/>
 		</a>
 		<div class="desc">
-			<h2 class="title" style={`color: #${color}`}>{display}</h2>
+			<h2 class="title" style={`color: ${color}`}>{display}</h2>
 			<h3 class="subtitle">{roles}</h3>
 			<p class="notes">{description}</p>
 		</div>
@@ -172,6 +172,10 @@
 
 		.subtitle {
 			font-size: 1.125rem;
+		}
+
+		.notes {
+			font-size: 1rem;
 		}
 	}
 </style>

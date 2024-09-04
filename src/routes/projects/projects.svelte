@@ -1,5 +1,6 @@
 <script>
 	import Project from './project.svelte';
+	import data from '../../data.json';
 </script>
 
 <div class="cont">
@@ -9,24 +10,17 @@
 		<img src="/assets/semicircle.svg" alt="o" class="u u-bottom" />
 	</div>
 	<div class="proj-list">
-		<Project
-			name="tcc"
-			date="Oct 2023 - Sept 2024"
-			display="TAMS Club Calendar"
-			description="The TAMS Club Calendar is a fully contained event tracker, club/volunteering database, and general resource center. This is the unofficial club event calendar for the Texas Academy of Mathematics and Science (TAMS) student organizations!"
-			roles="Creator, Developer, Designer"
-			color="00BB00"
-			url="https://tams.club"
-		/>
-		<Project
-			name="jury"
-			date="Dec 2022 - Present"
-			display="Jury (Hackathon Judging Platform)"
-			description="A project designed to create a new pairwise judging system using modern technologies aimed at optimizing the user experience of judges and admin users. Using the same underlying statistical models and paper as Gavel, Jury is trying to deliver the best possible experience to everyone at the end of a grueling hackathon."
-			roles="Creator, Developer, Designer"
-			color="00ACE6"
-			url="https://jury.mikz.dev"
-		/>
+		{#each data.projects as d}
+			<Project
+				name={d.name}
+				date={d.date}
+				display={d.display}
+				description={d.description}
+				roles={d.position}
+				color={d.color}
+				url={d.href}
+			/>
+		{/each}
 	</div>
 </div>
 <p class="others">...and a lot more :D</p>
