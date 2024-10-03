@@ -15,7 +15,7 @@
 
 <Hero />
 
-<!-- <Navbar /> -->
+<Navbar />
 
 <h1 class="name">Michael Zhao</h1>
 

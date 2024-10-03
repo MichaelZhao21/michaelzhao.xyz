@@ -14,10 +14,10 @@
 
 <!-- Navbar -->
 <div class="navbar">
-	<button class="nb-item">about me</button>
-	<button class="nb-item">projects</button>
-	<button class="nb-item">workshops</button>
-	<button class="nb-item">fun links</button>
+	<a href="#projects" class="nb-item">projects</a>
+	<a href="https://blog.michaelzhao.xyz" class="nb-item">blog</a>
+	<!-- <button class="nb-item">workshops</button> -->
+	<!-- <button class="nb-item">fun links</button> -->
 </div>
 
 <!-- Hamburger menu (only shown on mobile) -->
@@ -30,10 +30,10 @@
 <!-- Hamburger menu popup -->
 {#if popupOpen}
 	<div class="hb-popup" in:slide out:slide>
-		<button class="nb-item hb-item">about me</button>
-		<button class="nb-item hb-item">projects</button>
-		<button class="nb-item hb-item">workshops</button>
-		<button class="nb-item hb-item">fun links</button>
+		<a href="#projects" class="nb-item hb-item">projects</a>
+		<a href="https://blog.michaelzhao.xyz" class="nb-item hb-item">blog</a>
+		<!-- <button class="nb-item hb-item">workshops</button> -->
+		<!-- <button class="nb-item hb-item">fun links</button> -->
         <button class="hb-x" on:click={toggleMenu}>x</button>
 	</div>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -65,6 +65,7 @@
 		cursor: pointer;
 		transition-duration: 200ms;
 		margin: 0 1rem;
+		text-decoration: none;
 	}
 
 	.nb-item:hover {
