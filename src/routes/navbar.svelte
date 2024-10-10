@@ -15,7 +15,7 @@
 <!-- Navbar -->
 <div class="navbar">
 	<a href="#projects" class="nb-item">projects</a>
-	<a href="https://blog.michaelzhao.xyz" class="nb-item">blog</a>
+	<a href="https://blog.michaelzhao.xyz" target="_blank" class="nb-item">blog</a>
 	<!-- <button class="nb-item">workshops</button> -->
 	<!-- <button class="nb-item">fun links</button> -->
 </div>
@@ -31,7 +31,7 @@
 {#if popupOpen}
 	<div class="hb-popup" in:slide out:slide>
 		<a href="#projects" class="nb-item hb-item">projects</a>
-		<a href="https://blog.michaelzhao.xyz" class="nb-item hb-item">blog</a>
+		<a href="https://blog.michaelzhao.xyz" target="_blank" class="nb-item hb-item">blog</a>
 		<!-- <button class="nb-item hb-item">workshops</button> -->
 		<!-- <button class="nb-item hb-item">fun links</button> -->
         <button class="hb-x" on:click={toggleMenu}>x</button>
