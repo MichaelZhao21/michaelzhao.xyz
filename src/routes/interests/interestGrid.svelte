@@ -3,10 +3,12 @@
 </script>
 
 <div class="grid">
-	<Interest icon="settings">Using Tauri to build a desktop app</Interest>
-	<Interest icon="kid_star">Researching Rank Aggregation</Interest>
-	<Interest icon="music_note">Learning to play guitar</Interest>
+	<Interest icon="fact_check">Creating a desktop app with Qt6</Interest>
+	<Interest icon="hotel_class">Researching Rank Aggregation</Interest>
+	<Interest icon="draw">Writing more Blog Posts</Interest>
 	<Interest icon="menu_book">Reading more nonfiction books</Interest>
+	<Interest icon="skillet">Cooking good food</Interest>
+	<Interest icon="explosion">Taking a class on Quantum Computing</Interest>
 </div>
 
 <style>
